@@ -9,5 +9,6 @@
 
     <include file="version/horsesTable.xml" relativeToChangelogFile="true"/>
     <include file="version/countriesTable.xml" relativeToChangelogFile="true"/>
+    <include file="version/clubsTable.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>
