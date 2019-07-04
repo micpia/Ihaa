@@ -13,5 +13,6 @@
     <include file="version/ridersTable.xml" relativeToChangelogFile="true"/>
     <include file="version/competitionsTable.xml" relativeToChangelogFile="true"/>
     <include file="version/startsTable.xml" relativeToChangelogFile="true"/>
+    <include file="version/stylesTable.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>
