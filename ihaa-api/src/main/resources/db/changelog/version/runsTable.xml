@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
-    <changeSet author="michal" id="25">
+    <changeSet author="michal" id="31">
         <createTable tableName="runs">
             <column autoIncrement="true" name="id" type="INT">
                 <constraints primaryKey="true"/>
@@ -20,20 +20,20 @@
             <column name="timestamp" type="timestamp"/>
         </createTable>
     </changeSet>
-    <changeSet author="michal" id="26">
+    <changeSet author="michal" id="32">
         <createIndex indexName="runs_starts_id_fk" tableName="runs">
             <column name="starts_id"/>
         </createIndex>
     </changeSet>
-    <changeSet author="michal" id="27">
+    <changeSet author="michal" id="33">
         <createIndex indexName="runs_styles_id_fk" tableName="runs">
             <column name="styles_id"/>
         </createIndex>
     </changeSet>
-    <changeSet author="michal" id="28">
+    <changeSet author="michal" id="34">
         <addForeignKeyConstraint baseColumnNames="starts_id" baseTableName="runs" constraintName="runs_starts_id_fk" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="starts" validate="true"/>
     </changeSet>
-    <changeSet author="michal" id="29">
+    <changeSet author="michal" id="35">
         <addForeignKeyConstraint baseColumnNames="styles_id" baseTableName="runs" constraintName="runs_styles_id_fk" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="styles" validate="true"/>
     </changeSet>
 </databaseChangeLog>
