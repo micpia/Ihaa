@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="michal" id="44">
+        <createTable tableName="shots">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="runs_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="points" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="shot_number" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="michal" id="45">
+        <createIndex indexName="shots_runs_id_fk" tableName="shots">
+            <column name="runs_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="michal" id="46">
+        <addForeignKeyConstraint baseColumnNames="runs_id" baseTableName="shots" constraintName="shots_runs_id_fk" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="runs" validate="true"/>
+    </changeSet>
+</databaseChangeLog>
