@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="michal" id="10">
+        <createTable tableName="starts">
+            <column name="riders_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="competitions_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="horses_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="michal" id="11">
+        <addUniqueConstraint columnNames="riders_id, competitions_id" constraintName="starts_pk" tableName="starts"/>
+    </changeSet>
+    <changeSet author="michal" id="12">
+        <createIndex indexName="starts_competitions_id_fk" tableName="starts">
+            <column name="competitions_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="michal" id="13">
+        <createIndex indexName="starts_horses_id_fk" tableName="starts">
+            <column name="horses_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="michal" id="14">
+        <addForeignKeyConstraint baseColumnNames="competitions_id" baseTableName="starts" constraintName="starts_competitions_id_fk" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="competitions" validate="true"/>
+    </changeSet>
+    <changeSet author="michal" id="15">
+        <addForeignKeyConstraint baseColumnNames="horses_id" baseTableName="starts" constraintName="starts_horses_id_fk" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="horses" validate="true"/>
+    </changeSet>
+    <changeSet author="michal" id="16">
+        <addForeignKeyConstraint baseColumnNames="riders_id" baseTableName="starts" constraintName="starts_riders_id_fk" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="riders" validate="true"/>
+    </changeSet>
+</databaseChangeLog>
