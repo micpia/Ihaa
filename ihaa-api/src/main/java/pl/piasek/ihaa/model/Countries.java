@@ -1,9 +1,6 @@
 package pl.piasek.ihaa.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
@@ -11,7 +8,14 @@ public class Countries {
     private int id;
     private String name;
 
+    public Countries(){}
+
+    public Countries(String name) {
+        this.name = name;
+    }
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
