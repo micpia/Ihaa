@@ -51,10 +51,10 @@ public class DbSeeder implements CommandLineRunner {
 
                 while (rowIterator.hasNext()) {
                     if (sheetIterator % rowsInSheet == row) {
-                        
+
                         Map.Entry pair = rowIterator.next();
 
-                        if (pair.getKey().equals(field)) {
+                        if (pair.getKey().equals(field) && !list.contains(pair.getValue().toString())) {
                             list.add(pair.getValue().toString());
                         }
                     } else {
@@ -69,24 +69,42 @@ public class DbSeeder implements CommandLineRunner {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
         return list;
+    }
+
+    private void appendArray(ArrayList<String> array) {
+
+        List<Countries> countries = new ArrayList<>();
+
+        int count = 0;
+        while(array.size() > count) {
+
+            System.out.println(array.get(count));
+            if (!countriesRepo.existsByName(array.get(count))) {
+                countries.add(new Countries(array.get(count)));
+            }
+
+            count ++;
+        }
+        countriesRepo.saveAll(countries);
     }
 
     @Override
     public void run(String... args) throws Exception {
 
-        List<Countries> countries = new ArrayList<>();
 
-        if (!countriesRepo.existsByName("Poland"))
-            countries.add(new Countries("Poland"));
+
+
         //countries.add(new Countries("Hungary"));
 
-        ArrayList<String> names = getFields(1, 16, "FIELD2", "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
+        ArrayList<String> countries = getFields(2, 16, "FIELD2", "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
 
-        System.out.println(names);
+        System.out.println("Fetched string array: " + countries);
+
+        appendArray(countries);
 
 
-        countriesRepo.saveAll(countries);
     }
 
 
