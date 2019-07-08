@@ -220,8 +220,10 @@ public class DbSeeder implements CommandLineRunner {
                     System.out.println(allRunsTimes);
 
 
-                    
-
+                    if (!countriesRepo.existsByName(this.countriesName)) {
+                        countriesRepo.save(new Countries(this.countriesName));
+                    }
+                    System.out.println(countriesRepo.findByName(this.countriesName).getId());
 
 
 
