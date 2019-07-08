@@ -82,6 +82,14 @@ public class DbSeeder implements CommandLineRunner {
     //private Long runsTracksId = tracksId;
 
     //shots
+    private Long shotsId = null;
+    private int shotsShotNumber = 1;
+    private int shotsPoints = 0;
+    //private Long shotsRunsId = runsId;
+
+    //allRunsPoints
+    private ArrayList<ArrayList<Integer>> allRunsPoints = new ArrayList<ArrayList<Integer>>();
+    private ArrayList<Double> allRunsTimes = new ArrayList<Double>();
 
 
     @Autowired
@@ -126,14 +134,16 @@ public class DbSeeder implements CommandLineRunner {
 
             Object object = jsonParser.parse(fileReader);
             JSONArray scoreSheets = (JSONArray) object;
-            int sheetIterator = 0;
+            int rowNumber = 0;
             Iterator iterator = scoreSheets.iterator();
 
             while (iterator.hasNext()) {            //loop thru all scoresheets in file
-                sheetIterator++;
+                rowNumber++;
                 Iterator<Map.Entry> rowIterator = ((Map) iterator.next()).entrySet().iterator();
 
-                if (sheetIterator % rowsInSheet == ridersRow) {
+                ArrayList<Integer> runPoints = new ArrayList<Integer>();
+
+                if (rowNumber % rowsInSheet == ridersRow) {
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
@@ -143,41 +153,78 @@ public class DbSeeder implements CommandLineRunner {
                             this.ridersSurname = fullName.substring(space + 1);
                         }
                     }
-                } else if (sheetIterator % rowsInSheet == countriesRow) {
+                } else if (rowNumber % rowsInSheet == countriesRow) {
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
                             this.countriesName = pair.getValue().toString();
                         }
                     }
-                } else if (sheetIterator % rowsInSheet == horsesRow) {
+                } else if (rowNumber % rowsInSheet == horsesRow) {
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
                             this.horsesName = pair.getValue().toString();
                         }
                     }
-                } else if (sheetIterator % rowsInSheet == stylesRow) {
+                } else if (rowNumber % rowsInSheet == stylesRow) {
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
                             this.stylesName = pair.getValue().toString();
                         }
                     }
+                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + this.numberOfRuns) {
+                    int columnNumber = 0;
+                    while (rowIterator.hasNext()) {
+                        columnNumber++;
+                        Map.Entry pair = rowIterator.next();
+
+
+                        //TODO assing time to table allRunsTimes[] double
+                        if (columnNumber == 1) {                 //
+                            allRunsTimes.add(Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString()));
+                        }
+
+                        if (columnNumber >= 2 && columnNumber < 5) {            //reading target points, separating them and inserting to one run list TODO change hardcoded 5 for claculated naumber of columns
+                            //5 possible to pass number of targts with argument- may be problems with different number of columns in one style
+
+                            String rawPoints = (pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString();
+                            String trPoints[] = rawPoints.split("");
+
+                            for (String points : trPoints) {
+                                //System.out.println(points);
+                                runPoints.add(Integer.parseInt(points));
+                            }
+                        }
+
+                    }
+                    this.allRunsPoints.add(runPoints);      // adding each run points to List of lists with all target points
+                    if (rowNumber % rowsInSheet == stylesRow + 1 + this.numberOfRuns) {
+
+
+                        //System.out.println(runPoints);
+                        System.out.println(allRunsPoints);
+                        System.out.println(allRunsTimes);
+                        runPoints.clear();
+                    }
                 } else {
                     rowIterator.next();
                 }
 
-                if (sheetIterator % rowsInSheet == 0) {
-                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
 
+                if (rowNumber % rowsInSheet == 0) {
+                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
+                    //System.out.println(this.allRunsPoints);
+                    this.allRunsPoints.clear();
+                    this.allRunsTimes.clear();
                     //TODO input countries, horses, riders, styles, starts data to db and get IDs
                 }
             }
 
 
 //
-////                    if(sheetIterator % rowsInSheet > stylesRow && sheetIterator % rowsInSheet < stylesRow + this.numberOfRuns) {       //runs and shots
+////                    if(rowNumber % rowsInSheet > stylesRow && rowNumber % rowsInSheet < stylesRow + this.numberOfRuns) {       //runs and shots
 ////
 ////                        //TODO manage each run data input with use of earlier fetched IDs
 ////                    }
