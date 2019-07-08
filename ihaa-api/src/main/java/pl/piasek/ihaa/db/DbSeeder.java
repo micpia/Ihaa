@@ -143,7 +143,7 @@ public class DbSeeder implements CommandLineRunner {
 
                 ArrayList<Integer> runPoints = new ArrayList<Integer>();
 
-                if (rowNumber % rowsInSheet == ridersRow) {
+                if (rowNumber % rowsInSheet == ridersRow) {                     //riders info row
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
@@ -153,36 +153,35 @@ public class DbSeeder implements CommandLineRunner {
                             this.ridersSurname = fullName.substring(space + 1);
                         }
                     }
-                } else if (rowNumber % rowsInSheet == countriesRow) {
+                } else if (rowNumber % rowsInSheet == countriesRow) {           //countries info row
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
                             this.countriesName = pair.getValue().toString();
                         }
                     }
-                } else if (rowNumber % rowsInSheet == horsesRow) {
+                } else if (rowNumber % rowsInSheet == horsesRow) {              //horse info row
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
                             this.horsesName = pair.getValue().toString();
                         }
                     }
-                } else if (rowNumber % rowsInSheet == stylesRow) {
+                } else if (rowNumber % rowsInSheet == stylesRow) {              //styles info row
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
                             this.stylesName = pair.getValue().toString();
                         }
                     }
-                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + this.numberOfRuns) {
+                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + this.numberOfRuns) {   //target points rows
                     int columnNumber = 0;
                     while (rowIterator.hasNext()) {
                         columnNumber++;
                         Map.Entry pair = rowIterator.next();
 
 
-                        //TODO assing time to table allRunsTimes[] double
-                        if (columnNumber == 1) {                 //
+                        if (columnNumber == 1) {                 // reading time
                             allRunsTimes.add(Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString()));
                         }
 
@@ -199,23 +198,35 @@ public class DbSeeder implements CommandLineRunner {
                         }
 
                     }
+
                     this.allRunsPoints.add(runPoints);      // adding each run points to List of lists with all target points
-                    if (rowNumber % rowsInSheet == stylesRow + 1 + this.numberOfRuns) {
+                    //runPoints.clear();
+                    if (rowNumber % rowsInSheet == stylesRow + 1 + this.numberOfRuns) {         // after all point info rows
 
 
                         //System.out.println(runPoints);
-                        System.out.println(allRunsPoints);
-                        System.out.println(allRunsTimes);
-                        runPoints.clear();
+//                        System.out.println(allRunsPoints);
+//                        System.out.println(allRunsTimes);
+
                     }
                 } else {
-                    rowIterator.next();
+                    rowIterator.next();     //if not info row skip it
                 }
 
 
-                if (rowNumber % rowsInSheet == 0) {
+                if (rowNumber % rowsInSheet == 0) {             //after each scoresheet operations
                     System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
-                    //System.out.println(this.allRunsPoints);
+                    System.out.println(allRunsPoints);
+                    System.out.println(allRunsTimes);
+
+
+                    
+
+
+
+
+
+
                     this.allRunsPoints.clear();
                     this.allRunsTimes.clear();
                     //TODO input countries, horses, riders, styles, starts data to db and get IDs
@@ -240,6 +251,8 @@ public class DbSeeder implements CommandLineRunner {
             e.printStackTrace();
         }
     }
+
+
 //reference for faster changes in code, delete later
 //    private void appendArray(ArrayList<String> array) {
 //
