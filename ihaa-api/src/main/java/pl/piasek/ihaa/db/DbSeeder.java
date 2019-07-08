@@ -10,6 +10,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 import pl.piasek.ihaa.model.Countries;
+import pl.piasek.ihaa.model.Shots;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -21,6 +22,14 @@ public class DbSeeder implements CommandLineRunner {
 
     private CountriesRepo countriesRepo;
     private ClubsRepo clubsRepo;
+    private CompetitionsRepo competitionsRepo;
+    private HorsesRepo horsesRepo;
+    private ShotsRepo shotsRepo;
+    private RidesRepo ridesRepo;
+    private RunsRepo runsRepo;
+    private StylesRepo stylesRepo;
+    private TracksRepo tracksRepo;
+    private StartsRepo startsRepo;
 
     private String path = null;
     private int numberOfRuns = 9;
@@ -73,12 +82,29 @@ public class DbSeeder implements CommandLineRunner {
     //private Long runsTracksId = tracksId;
 
     //shots
-     
+
 
     @Autowired
-    public DbSeeder(CountriesRepo countriesRepo, ClubsRepo clubsRepo) {
+    public DbSeeder(CountriesRepo countriesRepo,
+                    ClubsRepo clubsRepo,
+                    CompetitionsRepo competitionsRepo,
+                    HorsesRepo horsesRepo,
+                    ShotsRepo shotsRepo,
+                    RidesRepo ridesRepo,
+                    RunsRepo runsRepo,
+                    StylesRepo stylesRepo,
+                    TracksRepo tracksRepo,
+                    StartsRepo startsRepo) {
         this.clubsRepo = clubsRepo;
         this.countriesRepo = countriesRepo;
+        this.competitionsRepo = competitionsRepo;
+        this.horsesRepo = horsesRepo;
+        this.shotsRepo = shotsRepo;
+        this.ridesRepo = ridesRepo;
+        this.runsRepo = runsRepo;
+        this.stylesRepo = stylesRepo;
+        this.tracksRepo = tracksRepo;
+        this.startsRepo = startsRepo;
     }
 
     private void competitionStyleDataToDb() {
@@ -150,59 +176,13 @@ public class DbSeeder implements CommandLineRunner {
             }
 
 
-//                while (rowIterator.hasNext()) {     //loop thru one sheet
-//
-//                    if(sheetIterator % rowsInSheet == ridersRow) {       //riders table data
-//                        Map.Entry pair = rowIterator.next();
-//                        if(pair.getKey().equals(dataField)) {
-//                            String fullName = pair.getValue().toString();
-//                            int space = fullName.indexOf(" ");
-//                            this.ridersName = fullName.substring(0,space);
-//                            this.ridersSurname = fullName.substring(space + 1);
-//                        }
-//                    } else if(sheetIterator % rowsInSheet == countriesRow) {       //countries
-//                        Map.Entry pair = rowIterator.next();
-//                        if(pair.getKey().equals(dataField)) {
-//                            this.countriesName = pair.getValue().toString();
-//                        }
-//                    } else if(sheetIterator % rowsInSheet == horsesRow) {       //horses table data
-//                        Map.Entry pair = rowIterator.next();
-//                        if(pair.getKey().equals(dataField)) {
-//                            this.horsesName = pair.getValue().toString();
-//                        }
-//                    } else if(sheetIterator % rowsInSheet == stylesRow) {       //styles table data
-//                        Map.Entry pair = rowIterator.next();
-//                        if(pair.getKey().equals(dataField)) {
-//                            this.stylesName = pair.getValue().toString();
-//                        }
-//                    } else {
-//                        rowIterator.next();
-//                    }
-//
-//
 //
 ////                    if(sheetIterator % rowsInSheet > stylesRow && sheetIterator % rowsInSheet < stylesRow + this.numberOfRuns) {       //runs and shots
 ////
 ////                        //TODO manage each run data input with use of earlier fetched IDs
 ////                    }
 //
-//
-//
-//                        //just for reference
-////                    if (sheetIterator % rowsInSheet == row) {
-////
-////                        Map.Entry pair = rowIterator.next();
-////
-////                        //if (pair.getKey().equals(field) && !list.contains(pair.getValue().toString())) {
-////                        //    list.add(pair.getValue().toString());
-////                        //}
-////                    } else {
-////                        rowIterator.next();
-////                    }
-//
-//
 //                }
-
 
 
         } catch (FileNotFoundException ex) {
