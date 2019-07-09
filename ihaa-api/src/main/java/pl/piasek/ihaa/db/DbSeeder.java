@@ -208,12 +208,17 @@ public class DbSeeder implements CommandLineRunner {
                     this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
                     System.out.println(this.horses.getId() + ": " + this.horses.getName());
 
-
-
                     //starts
-//                    if(this.startsRepo.existByRidersIDAndCompetirionsId(this.riders.getId(), this.competitions.getId())) {
-//
-//                    }
+                    starts.setRidersByRidersId(this.riders);
+                    starts.setCompetitionsByCompetitionsId(competitions);
+                    starts.setHorsesByHorsesId(this.horses);
+
+                    if(!this.startsRepo.existsStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()))
+                    {
+                        this.startsRepo.save(starts);
+                    }
+                    this.starts.setId(this.startsRepo.findStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()).getId());
+                    System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
 
 
 //                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
