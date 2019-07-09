@@ -1,9 +1,6 @@
 package pl.piasek.ihaa.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
@@ -13,7 +10,16 @@ public class Styles {
     private double pointsPerSecond;
     private int numberOfRuns;
 
+    public Styles() {}
+
+    public Styles (String name, double pointsPerSecond, int numberOfRuns) {
+        this.name = name;
+        this.pointsPerSecond = pointsPerSecond;
+        this.numberOfRuns = numberOfRuns;
+    }
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;

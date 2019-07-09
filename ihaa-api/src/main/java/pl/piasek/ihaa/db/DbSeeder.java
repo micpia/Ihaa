@@ -67,19 +67,27 @@ public class DbSeeder implements CommandLineRunner {
                                           int stylesRow,
                                           String dataField,
                                           Competitions competitions,
+                                          Styles styles,
                                           String path,
-                                          int numberOfRuns,
                                           int numberOfTargets) {
 
-        int rowsInSheet = numberOfRuns + 7;
+        int rowsInSheet = styles.getNumberOfRuns() + 7;
 
         //TODO competition data input to database
 
+        //competitions
         if(!this.competitionsRepo.existsByNameAndStartDay(competitions.getName(), competitions.getStartDay())) {
             this.competitionsRepo.save(competitions);
         }
         competitions.setId(this.competitionsRepo.findByNameAndStartDay(competitions.getName(), competitions.getStartDay()).getId());
-        System.out.println(competitions.getId() + " :" + competitions.getName() + " " + competitions.getStartDay() +  " " + competitions.getStatus() +  " " + competitions.getLocation());
+        System.out.println(competitions.getId() + ": " + competitions.getName() + " " + competitions.getStartDay() +  " " + competitions.getStatus() +  " " + competitions.getLocation());
+
+        //styles
+        if(!this.stylesRepo.existsByName(styles.getName())) {
+            this.stylesRepo.save(styles);
+        }
+        styles.setId(this.stylesRepo.findByName(styles.getName()).getId());
+        System.out.println(styles.getId() + ": " + styles.getName() + " " + styles.getNumberOfRuns() + " " + styles.getPointsPerSecond());
 
         JSONParser jsonParser = new JSONParser();
 
@@ -137,7 +145,7 @@ public class DbSeeder implements CommandLineRunner {
 //                        }
 //                    }
 //                }
-                else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + numberOfRuns) {   //target points rows
+                else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //target points rows
                     int columnNumber = 0;
                     while (rowIterator.hasNext()) {
                         columnNumber++;
@@ -198,7 +206,7 @@ public class DbSeeder implements CommandLineRunner {
                         this.horsesRepo.save(horses);
                     }
                     this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
-                    System.out.println(this.horses.getId() + " :" + this.horses.getName());
+                    System.out.println(this.horses.getId() + ": " + this.horses.getName());
 
 
 
@@ -274,15 +282,17 @@ public class DbSeeder implements CommandLineRunner {
 
         Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
 
+        Styles styles = new Styles("Hungarian", 1.0, 9);
+
         competitionStyleDataToDb(1,
                 2,
                 3,
                 4,
                 "FIELD2",
                 competitions,
+                styles,
                 "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json",
-                9,
-                3);
+                3); //error for korean track - different number of targets on runs
         //countries.add(new Countries("Hungary"));
 //        ArrayList<String> countries = getFields(2, 16, "FIELD2", "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
 //        System.out.println("Fetched string array: " + countries);
