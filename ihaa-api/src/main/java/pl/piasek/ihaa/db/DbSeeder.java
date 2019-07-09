@@ -10,6 +10,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 import pl.piasek.ihaa.model.Countries;
+import pl.piasek.ihaa.model.Horses;
 import pl.piasek.ihaa.model.Riders;
 import pl.piasek.ihaa.model.Shots;
 
@@ -34,6 +35,7 @@ public class DbSeeder implements CommandLineRunner {
 
     private Countries countries;
     private Riders riders;
+    private Horses horses;
 
     @Autowired
     public DbSeeder(CountriesRepo countriesRepo,
@@ -87,6 +89,7 @@ public class DbSeeder implements CommandLineRunner {
                 if(rowNumber % rowsInSheet == 0) {
                     this.countries = new Countries();
                     this.riders = new Riders();
+                    this.horses = new Horses();
                     int gdfg  = 5;
                 }
 
@@ -116,7 +119,7 @@ public class DbSeeder implements CommandLineRunner {
                     while (rowIterator.hasNext()) {
                         Map.Entry pair = rowIterator.next();
                         if (pair.getKey().equals(dataField)) {
-//                            this.horsesName = pair.getValue().toString();
+                            this.horses.setName(pair.getValue().toString());
                         }
                     }
                 } else if (rowNumber % rowsInSheet == stylesRow) {              //styles info row
@@ -167,19 +170,28 @@ public class DbSeeder implements CommandLineRunner {
 
                 if (rowNumber % rowsInSheet == rowsInSheet - 1) {             //after each scoresheet operationscoountr
 
+                    //countries
                     if(!this.countriesRepo.existsByName(this.countries.getName())) {
                         this.countriesRepo.save(countries);
                     }
                     this.countries.setId(this.countriesRepo.findByName(this.countries.getName()).getId());
                     System.out.println(this.countries.getId() +  ": " + this.countries.getName());
 
-
+                    //riders
                     if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
                         this.riders.setCountriesByCountriesId(countries);
                         this.ridesRepo.save(riders);
                     }
                     this.riders.setId(ridesRepo.findByNameAndSurname(riders.getName(), riders.getSurname()).getId());
                     System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
+
+                    //horses
+                    if(!this.horsesRepo.existsByName(this.horses.getName())) {
+                        this.horsesRepo.save(horses);
+                    }
+                    this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
+
+                    System.out.println(this.horses.getId() + " :" + this.horses.getName());
 
 
 //                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
