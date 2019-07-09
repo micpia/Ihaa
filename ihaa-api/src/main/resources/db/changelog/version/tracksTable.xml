@@ -5,7 +5,7 @@
             <column autoIncrement="true" name="id" type="INT">
                 <constraints primaryKey="true"/>
             </column>
-            <column name="name" type="INT">
+            <column name="name" type="VARCHAR(255)">
                 <constraints nullable="false"/>
             </column>
             <column name="time_limit" type="INT">
