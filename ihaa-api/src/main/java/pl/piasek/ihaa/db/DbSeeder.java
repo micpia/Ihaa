@@ -9,14 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
-import pl.piasek.ihaa.model.Countries;
-import pl.piasek.ihaa.model.Horses;
-import pl.piasek.ihaa.model.Riders;
-import pl.piasek.ihaa.model.Shots;
+import pl.piasek.ihaa.model.*;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.Date;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 @Component
@@ -36,6 +35,8 @@ public class DbSeeder implements CommandLineRunner {
     private Countries countries;
     private Riders riders;
     private Horses horses;
+    private Starts starts;
+
 
     @Autowired
     public DbSeeder(CountriesRepo countriesRepo,
@@ -65,15 +66,20 @@ public class DbSeeder implements CommandLineRunner {
                                           int horsesRow,
                                           int stylesRow,
                                           String dataField,
-                                          String competitionName,
+                                          Competitions competitions,
                                           String path,
                                           int numberOfRuns,
                                           int numberOfTargets) {
 
         int rowsInSheet = numberOfRuns + 7;
 
-
         //TODO competition data input to database
+
+        if(!this.competitionsRepo.existsByNameAndStartDay(competitions.getName(), competitions.getStartDay())) {
+            this.competitionsRepo.save(competitions);
+        }
+        competitions.setId(this.competitionsRepo.findByNameAndStartDay(competitions.getName(), competitions.getStartDay()).getId());
+        System.out.println(competitions.getId() + " :" + competitions.getName() + " " + competitions.getStartDay() +  " " + competitions.getStatus() +  " " + competitions.getLocation());
 
         JSONParser jsonParser = new JSONParser();
 
@@ -90,7 +96,7 @@ public class DbSeeder implements CommandLineRunner {
                     this.countries = new Countries();
                     this.riders = new Riders();
                     this.horses = new Horses();
-                    int gdfg  = 5;
+                    this.starts =  new Starts();
                 }
 
                 rowNumber++;
@@ -122,14 +128,16 @@ public class DbSeeder implements CommandLineRunner {
                             this.horses.setName(pair.getValue().toString());
                         }
                     }
-                } else if (rowNumber % rowsInSheet == stylesRow) {              //styles info row
-                    while (rowIterator.hasNext()) {
-                        Map.Entry pair = rowIterator.next();
-                        if (pair.getKey().equals(dataField)) {
-//                            this.stylesName = pair.getValue().toString();
-                        }
-                    }
-                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + numberOfRuns) {   //target points rows
+                }
+//                else if (rowNumber % rowsInSheet == stylesRow) {              //styles info row
+//                    while (rowIterator.hasNext()) {
+//                        Map.Entry pair = rowIterator.next();
+//                        if (pair.getKey().equals(dataField)) {
+////                            this.stylesName = pair.getValue().toString();
+//                        }
+//                    }
+//                }
+                else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + numberOfRuns) {   //target points rows
                     int columnNumber = 0;
                     while (rowIterator.hasNext()) {
                         columnNumber++;
@@ -190,8 +198,14 @@ public class DbSeeder implements CommandLineRunner {
                         this.horsesRepo.save(horses);
                     }
                     this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
-
                     System.out.println(this.horses.getId() + " :" + this.horses.getName());
+
+
+
+                    //starts
+//                    if(this.startsRepo.existByRidersIDAndCompetirionsId(this.riders.getId(), this.competitions.getId())) {
+//
+//                    }
 
 
 //                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
@@ -210,7 +224,7 @@ public class DbSeeder implements CommandLineRunner {
 //
 //                    this.allRunsPoints.clear();
 //                    this.allRunsTimes.clear();
-                    //TODO input countries, horses, riders, styles, starts data to db and get IDs
+
                 }
             }
 
@@ -218,7 +232,7 @@ public class DbSeeder implements CommandLineRunner {
 //
 ////                    if(rowNumber % rowsInSheet > stylesRow && rowNumber % rowsInSheet < stylesRow + this.numberOfRuns) {       //runs and shots
 ////
-////                        //TODO manage each run data input with use of earlier fetched IDs
+////
 ////                    }
 //
 //                }
@@ -255,12 +269,17 @@ public class DbSeeder implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+
+        Date startDay=  Date.valueOf("2019-06-28");
+
+        Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
+
         competitionStyleDataToDb(1,
                 2,
                 3,
                 4,
                 "FIELD2",
-                "Grand Prix Stage 2 Białystok",
+                competitions,
                 "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json",
                 9,
                 3);

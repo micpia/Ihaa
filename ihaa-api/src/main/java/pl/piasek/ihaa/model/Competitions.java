@@ -1,9 +1,6 @@
 package pl.piasek.ihaa.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
 import java.util.Objects;
 
@@ -12,10 +9,25 @@ public class Competitions {
     private int id;
     private String name;
     private Date startDay;
-    private Byte status;
+    private Boolean status;
     private String location;
 
+    public Competitions() {}
+
+    public Competitions(String name) {
+        this.name = name;
+    }
+
+    public Competitions(String name, Date startDay, Boolean status, String location) {
+        this.name = name;
+        this. startDay = startDay;
+        this.status = status;
+        this.location = location;
+    }
+
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
@@ -47,11 +59,11 @@ public class Competitions {
 
     @Basic
     @Column(name = "status", nullable = true)
-    public Byte getStatus() {
+    public Boolean getStatus() {
         return status;
     }
 
-    public void setStatus(Byte status) {
+    public void setStatus(Boolean status) {
         this.status = status;
     }
 
