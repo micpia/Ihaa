@@ -172,8 +172,14 @@ public class DbSeeder implements CommandLineRunner {
                     }
                     this.countries.setId(this.countriesRepo.findByName(this.countries.getName()).getId());
                     System.out.println(this.countries.getId() +  ": " + this.countries.getName());
-                    System.out.println(this.riders.getName() + " " + this.riders.getSurname());
 
+
+                    if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
+                        this.riders.setCountriesByCountriesId(countries);
+                        this.ridesRepo.save(riders);
+                    }
+                    this.riders.setId(ridesRepo.findByNameAndSurname(riders.getName(), riders.getSurname()).getId());
+                    System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
 
 
 //                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
