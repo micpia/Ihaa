@@ -12,7 +12,20 @@ public class Riders {
     private Countries countriesByCountriesId;
     private Clubs clubsByClubsId;
 
+    public Riders() {}
+
+    public Riders(String name, String surname, Countries countriesByCountriesId) {
+        this.name = name;
+        this.surname = surname;
+        this.countriesByCountriesId = countriesByCountriesId;
+    }
+
+    public Riders(Clubs clubsByClubsId) {
+        this();
+        this.clubsByClubsId = clubsByClubsId;
+    }
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
