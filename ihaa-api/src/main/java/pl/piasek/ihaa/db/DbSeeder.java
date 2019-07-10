@@ -35,6 +35,8 @@ public class DbSeeder implements CommandLineRunner {
     private Horses horses;
     private Starts starts;
     private Tracks tracks;
+    private Runs runs;
+    private ArrayList<Runs> runsList;
 
 
 
@@ -106,6 +108,7 @@ public class DbSeeder implements CommandLineRunner {
                     this.horses = new Horses();
                     this.starts =  new Starts();
                     this.tracks = new Tracks();
+                    this.runsList = new ArrayList<Runs>();
                 }
 
                 rowNumber++;
@@ -148,18 +151,23 @@ public class DbSeeder implements CommandLineRunner {
                         }
                     }
 
+                    //runs
+                    this.runs = new Runs();
+
                     int columnNumber = 0;
 
                     while (rowIterator.hasNext()) {
                         columnNumber++;
                         Map.Entry pair = rowIterator.next();
 
+                        if (columnNumber == 1) {                 // reading time
+                            double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
+                            this.runs.setTime(time);
+                            this.runs.setRunNumber(runNumber);
+                            int f = 5;
+                            //allRunsTimes.add(Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString()));
+                        }
 
-
-//                        if (columnNumber == 1) {                 // reading time
-//                            allRunsTimes.add(Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString()));
-//                        }
-//
 //                        if (columnNumber >= 2 && columnNumber < numberOfTargets + 2) {            //reading target points, separating them and inserting to one run list TODO change hardcoded 5 for claculated naumber of columns
 //                            //5 possible to pass number of targts with argument- may be problems with different number of columns in one style
 //
@@ -173,6 +181,11 @@ public class DbSeeder implements CommandLineRunner {
 //                        }
 
                     }
+
+                    //runs
+                    //apply run to run list
+                    this.runsList.add(this.runs);
+                    int dfgd = 4;
 
 //                    this.allRunsPoints.add(runPoints);      // adding each run points to List of lists with all target points
 //                    //runPoints.clear();
