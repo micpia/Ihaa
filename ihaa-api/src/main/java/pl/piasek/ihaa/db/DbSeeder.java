@@ -36,6 +36,7 @@ public class DbSeeder implements CommandLineRunner {
     private Starts starts;
     private Tracks tracks;
     private Runs runs;
+    private int shotNumber;
 
 
     @Autowired
@@ -63,27 +64,52 @@ public class DbSeeder implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-        //input data for hungarian file
+        //competition data
         Date startDay = Date.valueOf("2019-06-28");
-        Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
+        Competitions competitionsGPS2_19 = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
+        //hungarian style data
         Styles stylesHun = new Styles("Hungarian", 1.0, 9);
-        ArrayList<Tracks> tracksList = new ArrayList<Tracks>();
+        ArrayList<Tracks> tracksListHun = new ArrayList<Tracks>();
         Tracks tracksHun = new Tracks("hungarian", 20, 1, 9, stylesHun, 3);
-        tracksList.add(tracksHun);
-        //reading hungarian file and appending data to db
+        tracksListHun.add(tracksHun);
+
+        //hun GPS2 2019
         competitionStyleDataToDb(1,
                 2,
                 3,
                 4,
                 "FIELD2",
-                competitions,
+                competitionsGPS2_19,
                 stylesHun,
-                tracksList,
+                tracksListHun,
                 "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
+
+        //korean style data
+        Styles stylesKor = new Styles("Korean", 1.0, 6);
+        ArrayList<Tracks> tracksListKor = new ArrayList<Tracks>();
+        Tracks tracksKorD = new Tracks("korean double", 14, 1, 2, stylesKor, 2);
+        Tracks tracksKorT = new Tracks("korean triple", 18, 3, 4, stylesKor, 3);
+        Tracks tracksKorM = new Tracks("korean multiple", 25, 5, 6, stylesKor, 5);
+        tracksListKor.add(tracksKorD);
+        tracksListKor.add(tracksKorT);
+        tracksListKor.add(tracksKorM);
+
+        //korean GPS2 2019
+        competitionStyleDataToDb(1,
+                2,
+                3,
+                4,
+                "FIELD2",
+                competitionsGPS2_19,
+                stylesKor,
+                tracksListKor,
+                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_k1.json");
+
+
 
     }
 
-    private void competitionStyleDataToDb(int ridersRow,
+    private void competitionStyleDataToDb(int ridersRow,    //TODO sheet data to one parameter
                                           int countriesRow,
                                           int horsesRow,
                                           int stylesRow,
@@ -199,7 +225,7 @@ public class DbSeeder implements CommandLineRunner {
                     //assigning proper track to this.tracks
                     int runNumber = rowNumber % rowsInSheet - (stylesRow + 1);
                     for (Tracks track : tracksList) {
-                        if (track.getFirstRun() <= runNumber + 1 && track.getLastRun() >= runNumber + 1) {
+                        if (track.getFirstRun() <= runNumber && track.getLastRun() >= runNumber) {
                             this.tracks = track;
 
                             if (!this.tracksRepo.existsByName(this.tracks.getName())) {
@@ -211,10 +237,12 @@ public class DbSeeder implements CommandLineRunner {
                     }
 
                     int columnNumber = 0;
-
+                    //int shotNo = 0;
+                    this.shotNumber = 1;
                     while (rowIterator.hasNext()) {
                         columnNumber++;
                         Map.Entry pair = rowIterator.next();
+
 
                         if (columnNumber == 1) {                 // reading time
                             double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
@@ -231,14 +259,12 @@ public class DbSeeder implements CommandLineRunner {
                             String rawPoints = (pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString();
                             String trPoints[] = rawPoints.split("");
 
-                            int shotNo = 0;
-                            for (String points : trPoints) {
-                                //System.out.println(points);
-                                shotNo++;
-                                Shots shots = new Shots(Integer.parseInt(points), shotNo, this.runs);
-                                if (!this.shotsRepo.existsShotsByRunsByRunsIdAndShotNumber(this.runs, shotNo)) {
+                            for (int i = 0; i < trPoints.length; i++) { //String points : trPoints)
+                                Shots shots = new Shots(Integer.parseInt(trPoints[i]),this.shotNumber, this.runs);
+                                if (!this.shotsRepo.existsShotsByRunsByRunsIdAndShotNumber(this.runs, this.shotNumber)) {
                                     this.shotsRepo.save(shots);
                                 }
+                                this.shotNumber ++;
                             }
                         }
                     }
