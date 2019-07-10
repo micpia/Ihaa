@@ -36,7 +36,6 @@ public class DbSeeder implements CommandLineRunner {
     private Starts starts;
     private Tracks tracks;
     private Runs runs;
-    private ArrayList<Runs> runsList;
 
 
 
@@ -108,7 +107,6 @@ public class DbSeeder implements CommandLineRunner {
                     this.horses = new Horses();
                     this.starts =  new Starts();
                     this.tracks = new Tracks();
-                    this.runsList = new ArrayList<Runs>();
                 }
 
                 rowNumber++;
@@ -178,7 +176,7 @@ public class DbSeeder implements CommandLineRunner {
 
 
 
-                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //target points rows
+                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //if points row in sheet
 
                     //tracks
                     //assigning proper track to this.tracks
@@ -191,12 +189,10 @@ public class DbSeeder implements CommandLineRunner {
                                 this.tracksRepo.save(this.tracks);
                             }
                             this.tracks.setId(this.tracksRepo.findByName(this.tracks.getName()).getId());
-                            System.out.println(this.tracks.getId() + ": " + this.tracks.getName());
+                            System.out.println(this.tracks.getId() + ": " + this.tracks.getName() + " " + this.tracks.getStylesByStylesId().getName());
                         }
                     }
 
-                    //runs
-                    this.runs = new Runs();
 
                     int columnNumber = 0;
 
@@ -206,8 +202,11 @@ public class DbSeeder implements CommandLineRunner {
 
                         if (columnNumber == 1) {                 // reading time
                             double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
-                            this.runs.setTime(time);
-                            this.runs.setRunNumber(runNumber);
+                            this.runs = new Runs(time, runNumber, this.starts, this.tracks);
+                            if(!this.runsRepo.existsRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber)) {
+                                this.runsRepo.save(this.runs);
+                            }
+                            this.runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId()); //crash
                             int f = 5;
                             //allRunsTimes.add(Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString()));
                         }
@@ -226,10 +225,7 @@ public class DbSeeder implements CommandLineRunner {
 
                     }
 
-                    //runs
-                    //apply run to run list
-                    this.runsList.add(this.runs);
-                    int dfgd = 4;
+
 
 //                    this.allRunsPoints.add(runPoints);      // adding each run points to List of lists with all target points
 //                    //runPoints.clear();

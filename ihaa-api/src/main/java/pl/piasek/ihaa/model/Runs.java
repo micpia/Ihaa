@@ -1,9 +1,6 @@
 package pl.piasek.ihaa.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.Objects;
 
@@ -13,8 +10,20 @@ public class Runs {
     private double time;
     private int runNumber;
     private Timestamp timestamp;
+    private Starts startsByStartsId;
+    private Tracks tracksByTracksId;
+
+    public Runs() {}
+
+    public Runs(double time, int runNumber, Starts startsByStartsId, Tracks tracksByTracksId) {
+        this.time = time;
+        this.runNumber = runNumber;
+        this.startsByStartsId = startsByStartsId;
+        this.tracksByTracksId = tracksByTracksId;
+    }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
@@ -68,5 +77,25 @@ public class Runs {
     @Override
     public int hashCode() {
         return Objects.hash(id, time, runNumber, timestamp);
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "starts_id", referencedColumnName = "id")
+    public Starts getStartsByStartsId() {
+        return startsByStartsId;
+    }
+
+    public void setStartsByStartsId(Starts startsByStartsId) {
+        this.startsByStartsId = startsByStartsId;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "tracks_id", referencedColumnName = "id")
+    public Tracks getTracksByTracksId() {
+        return tracksByTracksId;
+    }
+
+    public void setTracksByTracksId(Tracks tracksByTracksId) {
+        this.tracksByTracksId = tracksByTracksId;
     }
 }
