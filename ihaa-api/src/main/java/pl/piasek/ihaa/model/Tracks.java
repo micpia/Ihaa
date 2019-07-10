@@ -6,11 +6,24 @@ import java.util.Objects;
 @Entity
 public class Tracks {
     private int id;
-    private int name;
+    private String name;
     private int timeLimit;
+    private Integer firstRun;
+    private Integer lastRun;
     private Styles stylesByStylesId;
 
+    public Tracks() {}
+
+    public Tracks(String name, int timeLimit, Integer firstRun, Integer lastRun, Styles stylesByStylesId) {
+        this.name = name;
+        this.timeLimit = timeLimit;
+        this.firstRun = firstRun;
+        this.lastRun = lastRun;
+        this.stylesByStylesId = stylesByStylesId;
+    }
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
@@ -21,12 +34,12 @@ public class Tracks {
     }
 
     @Basic
-    @Column(name = "name", nullable = false)
-    public int getName() {
+    @Column(name = "name", nullable = false, length = 255)
+    public String getName() {
         return name;
     }
 
-    public void setName(int name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -40,28 +53,46 @@ public class Tracks {
         this.timeLimit = timeLimit;
     }
 
+    @Basic
+    @Column(name = "first_run", nullable = true)
+    public Integer getFirstRun() {
+        return firstRun;
+    }
+
+    public void setFirstRun(Integer firstRun) {
+        this.firstRun = firstRun;
+    }
+
+    @Basic
+    @Column(name = "last_run", nullable = true)
+    public Integer getLastRun() {
+        return lastRun;
+    }
+
+    public void setLastRun(Integer lastRun) {
+        this.lastRun = lastRun;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Tracks tracks = (Tracks) o;
         return id == tracks.id &&
-                name == tracks.name &&
-                timeLimit == tracks.timeLimit;
+                timeLimit == tracks.timeLimit &&
+                Objects.equals(name, tracks.name) &&
+                Objects.equals(firstRun, tracks.firstRun) &&
+                Objects.equals(lastRun, tracks.lastRun);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, timeLimit);
+        return Objects.hash(id, name, timeLimit, firstRun, lastRun);
     }
 
     @ManyToOne
-    @JoinColumn(name = "styles_id", referencedColumnName = "id", nullable = false)
-    public Styles getStylesByStylesId() {
-        return stylesByStylesId;
-    }
+    @JoinColumn(name = "styles_id", referencedColumnName = "id")
+    public Styles getStylesByStylesId() { return stylesByStylesId; }
 
-    public void setStylesByStylesId(Styles stylesByStylesId) {
-        this.stylesByStylesId = stylesByStylesId;
-    }
+    public void setStylesByStylesId(Styles stylesByStylesId) { this.stylesByStylesId = stylesByStylesId; }
 }
