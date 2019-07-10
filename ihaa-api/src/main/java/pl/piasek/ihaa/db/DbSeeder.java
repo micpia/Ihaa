@@ -38,7 +38,6 @@ public class DbSeeder implements CommandLineRunner {
     private Runs runs;
 
 
-
     @Autowired
     public DbSeeder(CountriesRepo countriesRepo,
                     CompetitionsRepo competitionsRepo,
@@ -60,6 +59,30 @@ public class DbSeeder implements CommandLineRunner {
         this.startsRepo = startsRepo;
     }
 
+    @Override
+    public void run(String... args) throws Exception {
+
+
+        //input data for hungarian file
+        Date startDay = Date.valueOf("2019-06-28");
+        Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
+        Styles stylesHun = new Styles("Hungarian", 1.0, 9);
+        ArrayList<Tracks> tracksList = new ArrayList<Tracks>();
+        Tracks tracksHun = new Tracks("hungarian", 20, 1, 9, stylesHun, 3);
+        tracksList.add(tracksHun);
+        //reading hungarian file and appending data to db
+        competitionStyleDataToDb(1,
+                2,
+                3,
+                4,
+                "FIELD2",
+                competitions,
+                stylesHun,
+                tracksList,
+                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
+
+    }
+
     private void competitionStyleDataToDb(int ridersRow,
                                           int countriesRow,
                                           int horsesRow,
@@ -73,14 +96,14 @@ public class DbSeeder implements CommandLineRunner {
         int rowsInSheet = styles.getNumberOfRuns() + 7;
 
         //competitions
-        if(!this.competitionsRepo.existsByNameAndStartDay(competitions.getName(), competitions.getStartDay())) {
+        if (!this.competitionsRepo.existsByNameAndStartDay(competitions.getName(), competitions.getStartDay())) {
             this.competitionsRepo.save(competitions);
         }
         competitions.setId(this.competitionsRepo.findByNameAndStartDay(competitions.getName(), competitions.getStartDay()).getId());
         //System.out.println(competitions.getId() + ": " + competitions.getName() + " " + competitions.getStartDay() +  " " + competitions.getStatus() +  " " + competitions.getLocation());
 
         //styles
-        if(!this.stylesRepo.existsByName(styles.getName())) {
+        if (!this.stylesRepo.existsByName(styles.getName())) {
             this.stylesRepo.save(styles);
         }
         styles.setId(this.stylesRepo.findByName(styles.getName()).getId());
@@ -97,11 +120,11 @@ public class DbSeeder implements CommandLineRunner {
 
             while (iterator.hasNext()) {            //loop thru all scoresheets in file
 
-                if(rowNumber % rowsInSheet == 0) {
+                if (rowNumber % rowsInSheet == 0) {
                     this.countries = new Countries();
                     this.riders = new Riders();
                     this.horses = new Horses();
-                    this.starts =  new Starts();
+                    this.starts = new Starts();
                     this.tracks = new Tracks();
                 }
 
@@ -134,17 +157,17 @@ public class DbSeeder implements CommandLineRunner {
                             this.horses.setName(pair.getValue().toString());
                         }
                     }
-                } else if(rowNumber % rowsInSheet == stylesRow + 1) { //appending queried data to db
+                } else if (rowNumber % rowsInSheet == stylesRow + 1) { //appending queried data to db
 
                     //countries
-                    if(!this.countriesRepo.existsByName(this.countries.getName())) {
+                    if (!this.countriesRepo.existsByName(this.countries.getName())) {
                         this.countriesRepo.save(countries);
                     }
                     this.countries.setId(this.countriesRepo.findByName(this.countries.getName()).getId());
                     //System.out.println(this.countries.getId() +  ": " + this.countries.getName());
 
                     //riders
-                    if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
+                    if (!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
                         this.riders.setCountriesByCountriesId(countries);
                         this.ridesRepo.save(this.riders);
                     }
@@ -152,7 +175,7 @@ public class DbSeeder implements CommandLineRunner {
                     //System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
 
                     //horses
-                    if(!this.horsesRepo.existsByName(this.horses.getName())) {
+                    if (!this.horsesRepo.existsByName(this.horses.getName())) {
                         this.horsesRepo.save(this.horses);
                     }
                     this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
@@ -163,25 +186,23 @@ public class DbSeeder implements CommandLineRunner {
                     starts.setCompetitionsByCompetitionsId(competitions);
                     starts.setHorsesByHorsesId(this.horses);
 
-                    if(!this.startsRepo.existsStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()))
-                    {
+                    if (!this.startsRepo.existsStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId())) {
                         this.startsRepo.save(starts);
                     }
                     this.starts.setId(this.startsRepo.findStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()).getId());
                     //System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
 
 
-
                 } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //if points row in sheet
 
                     //tracks
                     //assigning proper track to this.tracks
-                    int runNumber= rowNumber % rowsInSheet - (stylesRow + 1);
-                    for(Tracks track: tracksList) {
-                        if(track.getFirstRun() <= runNumber  + 1 && track.getLastRun() >= runNumber  + 1) {
+                    int runNumber = rowNumber % rowsInSheet - (stylesRow + 1);
+                    for (Tracks track : tracksList) {
+                        if (track.getFirstRun() <= runNumber + 1 && track.getLastRun() >= runNumber + 1) {
                             this.tracks = track;
 
-                            if(!this.tracksRepo.existsByName(this.tracks.getName())) {
+                            if (!this.tracksRepo.existsByName(this.tracks.getName())) {
                                 this.tracksRepo.save(this.tracks);
                             }
                             this.tracks.setId(this.tracksRepo.findByName(this.tracks.getName()).getId());
@@ -198,7 +219,7 @@ public class DbSeeder implements CommandLineRunner {
                         if (columnNumber == 1) {                 // reading time
                             double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
                             this.runs = new Runs(time, runNumber, this.starts, this.tracks);
-                            if(!this.runsRepo.existsRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber)) {
+                            if (!this.runsRepo.existsRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber)) {
                                 this.runsRepo.save(runs);
                             }
                             this.runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId());
@@ -213,9 +234,9 @@ public class DbSeeder implements CommandLineRunner {
                             int shotNo = 0;
                             for (String points : trPoints) {
                                 //System.out.println(points);
-                                shotNo ++;
-                                Shots shots = new Shots(Integer.parseInt(points),shotNo, this.runs);
-                                if(!this.shotsRepo.existsShotsByRunsByRunsIdAndShotNumber(this.runs, shotNo)) {
+                                shotNo++;
+                                Shots shots = new Shots(Integer.parseInt(points), shotNo, this.runs);
+                                if (!this.shotsRepo.existsShotsByRunsByRunsIdAndShotNumber(this.runs, shotNo)) {
                                     this.shotsRepo.save(shots);
                                 }
                             }
@@ -233,31 +254,5 @@ public class DbSeeder implements CommandLineRunner {
             e.printStackTrace();
         }
     }
-
-
-    @Override
-    public void run(String... args) throws Exception {
-
-
-        //input data for hungarian file
-        Date startDay=  Date.valueOf("2019-06-28");
-        Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
-        Styles stylesHun = new Styles("Hungarian", 1.0, 9);
-        ArrayList<Tracks> tracksList= new ArrayList<Tracks>();
-        Tracks tracksHun = new Tracks("hungarian", 20, 1 , 9, stylesHun, 3);
-        tracksList.add(tracksHun);
-        //reading hungarian file and appending data to db
-        competitionStyleDataToDb(1,
-                2,
-                3,
-                4,
-                "FIELD2",
-                competitions,
-                stylesHun,
-                tracksList,
-                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
-
-    }
-
 
 }
