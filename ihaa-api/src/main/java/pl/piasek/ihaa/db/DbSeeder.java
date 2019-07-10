@@ -35,7 +35,6 @@ public class DbSeeder implements CommandLineRunner {
     private Horses horses;
     private Starts starts;
     private Tracks tracks;
-    private Runs runs;
 
 
 
@@ -201,10 +200,11 @@ public class DbSeeder implements CommandLineRunner {
                         Map.Entry pair = rowIterator.next();
 
                         if (columnNumber == 1) {                 // reading time
+
                             double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
-                            this.runs = new Runs(time, runNumber, this.starts, this.tracks);
+                            Runs runs = new Runs(time, runNumber, this.starts, this.tracks);
                             if(!this.runsRepo.existsRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber)) {
-                                this.runsRepo.save(this.runs);
+                                this.runsRepo.save(runs);
                             }
                             this.runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId()); //crash
                             int f = 5;
