@@ -221,9 +221,9 @@ public class DbSeeder implements CommandLineRunner {
                             }
                         }
                     }
-                } else {
-                    rowIterator.next();     //if not info row skip it
-                }
+                } //else {
+//                    rowIterator.next();     //if not info row skip it
+//                }
             }
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
