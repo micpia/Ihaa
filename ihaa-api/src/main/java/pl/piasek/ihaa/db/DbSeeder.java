@@ -71,23 +71,20 @@ public class DbSeeder implements CommandLineRunner {
                                           String path) {
 
         int rowsInSheet = styles.getNumberOfRuns() + 7;
-        //this.tracks = tracks;
-
-        //TODO competition data input to database
 
         //competitions
         if(!this.competitionsRepo.existsByNameAndStartDay(competitions.getName(), competitions.getStartDay())) {
             this.competitionsRepo.save(competitions);
         }
         competitions.setId(this.competitionsRepo.findByNameAndStartDay(competitions.getName(), competitions.getStartDay()).getId());
-        System.out.println(competitions.getId() + ": " + competitions.getName() + " " + competitions.getStartDay() +  " " + competitions.getStatus() +  " " + competitions.getLocation());
+        //System.out.println(competitions.getId() + ": " + competitions.getName() + " " + competitions.getStartDay() +  " " + competitions.getStatus() +  " " + competitions.getLocation());
 
         //styles
         if(!this.stylesRepo.existsByName(styles.getName())) {
             this.stylesRepo.save(styles);
         }
         styles.setId(this.stylesRepo.findByName(styles.getName()).getId());
-        System.out.println(styles.getId() + ": " + styles.getName() + " " + styles.getNumberOfRuns() + " " + styles.getPointsPerSecond());
+        //System.out.println(styles.getId() + ": " + styles.getName() + " " + styles.getNumberOfRuns() + " " + styles.getPointsPerSecond());
 
         JSONParser jsonParser = new JSONParser();
 
@@ -144,7 +141,7 @@ public class DbSeeder implements CommandLineRunner {
                         this.countriesRepo.save(countries);
                     }
                     this.countries.setId(this.countriesRepo.findByName(this.countries.getName()).getId());
-                    System.out.println(this.countries.getId() +  ": " + this.countries.getName());
+                    //System.out.println(this.countries.getId() +  ": " + this.countries.getName());
 
                     //riders
                     if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
@@ -152,14 +149,14 @@ public class DbSeeder implements CommandLineRunner {
                         this.ridesRepo.save(this.riders);
                     }
                     this.riders.setId(ridesRepo.findByNameAndSurname(riders.getName(), riders.getSurname()).getId());
-                    System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
+                    //System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
 
                     //horses
                     if(!this.horsesRepo.existsByName(this.horses.getName())) {
                         this.horsesRepo.save(this.horses);
                     }
                     this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
-                    System.out.println(this.horses.getId() + ": " + this.horses.getName());
+                    //System.out.println(this.horses.getId() + ": " + this.horses.getName());
 
                     //starts
                     starts.setRidersByRidersId(this.riders);
@@ -171,7 +168,7 @@ public class DbSeeder implements CommandLineRunner {
                         this.startsRepo.save(starts);
                     }
                     this.starts.setId(this.startsRepo.findStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()).getId());
-                    System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
+                    //System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
 
 
 
@@ -188,10 +185,9 @@ public class DbSeeder implements CommandLineRunner {
                                 this.tracksRepo.save(this.tracks);
                             }
                             this.tracks.setId(this.tracksRepo.findByName(this.tracks.getName()).getId());
-                            System.out.println(this.tracks.getId() + ": " + this.tracks.getName() + " " + this.tracks.getStylesByStylesId().getName());
+                            //System.out.println(this.tracks.getId() + ": " + this.tracks.getName() + " " + this.tracks.getStylesByStylesId().getName());
                         }
                     }
-
 
                     int columnNumber = 0;
 
@@ -222,45 +218,13 @@ public class DbSeeder implements CommandLineRunner {
                                 if(!this.shotsRepo.existsShotsByRunsByRunsIdAndShotNumber(this.runs, shotNo)) {
                                     this.shotsRepo.save(shots);
                                 }
-
-                                //runPoints.add(Integer.parseInt(points));
                             }
                         }
-
                     }
-
-
-
-//                    this.allRunsPoints.add(runPoints);      // adding each run points to List of lists with all target points
-//                    //runPoints.clear();
-//                    if (rowNumber % rowsInSheet == stylesRow + 1 + this.numberOfRuns) {         // after all point info rows
-//
-//
-//                        //System.out.println(runPoints);
-////                        System.out.println(allRunsPoints);
-////                        System.out.println(allRunsTimes);
-//
-//                    }
                 } else {
                     rowIterator.next();     //if not info row skip it
                 }
-
-                if (rowNumber % rowsInSheet == rowsInSheet - 1) {             //after each scoresheet appending data do db
-
-
-
-
-
-//                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
-//                    System.out.println(allRunsPoints);
-//                    System.out.println(allRunsTimes);
-//
-//                    this.allRunsPoints.clear();
-//                    this.allRunsTimes.clear();
-
-                }
             }
-
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         } catch (IOException ex) {
