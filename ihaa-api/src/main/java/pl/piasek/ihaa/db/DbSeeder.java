@@ -21,7 +21,6 @@ import java.util.Map;
 public class DbSeeder implements CommandLineRunner {
 
     private CountriesRepo countriesRepo;
-    private ClubsRepo clubsRepo;
     private CompetitionsRepo competitionsRepo;
     private HorsesRepo horsesRepo;
     private ShotsRepo shotsRepo;
@@ -41,7 +40,6 @@ public class DbSeeder implements CommandLineRunner {
 
     @Autowired
     public DbSeeder(CountriesRepo countriesRepo,
-                    ClubsRepo clubsRepo,
                     CompetitionsRepo competitionsRepo,
                     HorsesRepo horsesRepo,
                     ShotsRepo shotsRepo,
@@ -50,7 +48,6 @@ public class DbSeeder implements CommandLineRunner {
                     StylesRepo stylesRepo,
                     TracksRepo tracksRepo,
                     StartsRepo startsRepo) {
-        this.clubsRepo = clubsRepo;
         this.countriesRepo = countriesRepo;
         this.competitionsRepo = competitionsRepo;
         this.horsesRepo = horsesRepo;
@@ -191,7 +188,7 @@ public class DbSeeder implements CommandLineRunner {
                     rowIterator.next();     //if not info row skip it
                 }
 
-                if (rowNumber % rowsInSheet == rowsInSheet - 1) {             //after each scoresheet operationscoountr
+                if (rowNumber % rowsInSheet == rowsInSheet - 1) {             //after each scoresheet appending data do db
 
                     //countries
                     if(!this.countriesRepo.existsByName(this.countries.getName())) {
@@ -256,39 +253,18 @@ public class DbSeeder implements CommandLineRunner {
     }
 
 
-//reference for faster changes in code, delete later
-//    private void appendArray(ArrayList<String> array) {
-//
-//        List<Countries> countries = new ArrayList<>();
-//
-//        int count = 0;
-//        while(array.size() > count) {
-//
-//            System.out.println(array.get(count));
-//            if (!countriesRepo.existsByName(array.get(count))) {
-//                countries.add(new Countries(array.get(count)));
-//            }
-//
-//            count ++;
-//        }
-//        countriesRepo.saveAll(countries);
-//    }
-
     @Override
     public void run(String... args) throws Exception {
 
 
+        //input data for hungarian file
         Date startDay=  Date.valueOf("2019-06-28");
-
         Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
-
         Styles stylesHun = new Styles("Hungarian", 1.0, 9);
-
         ArrayList<Tracks> tracksList= new ArrayList<Tracks>();
         Tracks tracksHun = new Tracks("hungarian", 20, 1 , 9, stylesHun);
         tracksList.add(tracksHun);
-
-
+        //reading hungarian file and appending data to db
         competitionStyleDataToDb(1,
                 2,
                 3,
@@ -298,11 +274,8 @@ public class DbSeeder implements CommandLineRunner {
                 stylesHun,
                 tracksList,
                 "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json",
-                3); //error for korean track - different number of targets on runs
-        //countries.add(new Countries("Hungary"));
-//        ArrayList<String> countries = getFields(2, 16, "FIELD2", "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
-//        System.out.println("Fetched string array: " + countries);
-//        appendArray(countries);
+                3);
+
     }
 
 
