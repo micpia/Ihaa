@@ -35,6 +35,7 @@ public class DbSeeder implements CommandLineRunner {
     private Horses horses;
     private Starts starts;
     private Tracks tracks;
+    private Runs runs;
 
 
 
@@ -67,8 +68,7 @@ public class DbSeeder implements CommandLineRunner {
                                           Competitions competitions,
                                           Styles styles,
                                           ArrayList<Tracks> tracksList,
-                                          String path,
-                                          int numberOfTargets) {
+                                          String path) {
 
         int rowsInSheet = styles.getNumberOfRuns() + 7;
         //this.tracks = tracks;
@@ -111,7 +111,7 @@ public class DbSeeder implements CommandLineRunner {
                 rowNumber++;
                 Iterator<Map.Entry> rowIterator = ((Map) iterator.next()).entrySet().iterator();
 
-                ArrayList<Integer> runPoints = new ArrayList<Integer>();
+                //ArrayList<Integer> runPoints = new ArrayList<Integer>();
 
                 if (rowNumber % rowsInSheet == ridersRow) {                     //riders info row
                     while (rowIterator.hasNext()) {
@@ -201,24 +201,31 @@ public class DbSeeder implements CommandLineRunner {
 
                         if (columnNumber == 1) {                 // reading time
                             double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
-                            Runs runs = new Runs(time, runNumber, this.starts, this.tracks);
+                            this.runs = new Runs(time, runNumber, this.starts, this.tracks);
                             if(!this.runsRepo.existsRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber)) {
                                 this.runsRepo.save(runs);
                             }
-                            runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId());
+                            this.runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId());
                         }
 
-//                        if (columnNumber >= 2 && columnNumber < numberOfTargets + 2) {            //reading target points, separating them and inserting to one run list TODO change hardcoded 5 for claculated naumber of columns
-//                            //5 possible to pass number of targts with argument- may be problems with different number of columns in one style
-//
-//                            String rawPoints = (pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString();
-//                            String trPoints[] = rawPoints.split("");
-//
-//                            for (String points : trPoints) {
-//                                //System.out.println(points);
-//                                runPoints.add(Integer.parseInt(points));
-//                            }
-//                        }
+                        //shots
+                        if (columnNumber >= 2 && columnNumber < this.tracks.getNumberOfTargets() + 2) {
+
+                            String rawPoints = (pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString();
+                            String trPoints[] = rawPoints.split("");
+
+                            int shotNo = 0;
+                            for (String points : trPoints) {
+                                //System.out.println(points);
+                                shotNo ++;
+                                Shots shots = new Shots(Integer.parseInt(points),shotNo, this.runs);
+                                if(!this.shotsRepo.existsShotsByRunsByRunsIdAndShotNumber(this.runs, shotNo)) {
+                                    this.shotsRepo.save(shots);
+                                }
+
+                                //runPoints.add(Integer.parseInt(points));
+                            }
+                        }
 
                     }
 
@@ -284,8 +291,7 @@ public class DbSeeder implements CommandLineRunner {
                 competitions,
                 stylesHun,
                 tracksList,
-                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json",
-                3);
+                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
 
     }
 

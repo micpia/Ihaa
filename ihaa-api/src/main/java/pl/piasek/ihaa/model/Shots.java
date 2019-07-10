@@ -10,7 +10,16 @@ public class Shots {
     private Integer shotNumber;
     private Runs runsByRunsId;
 
+    public Shots() {}
+
+    public Shots(int points, Integer shotNumber, Runs runsByRunsId) {
+        this.points = points;
+        this.shotNumber = shotNumber;
+        this.runsByRunsId = runsByRunsId;
+    }
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
