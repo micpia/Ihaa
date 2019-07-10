@@ -1,0 +1,7352 @@
+[
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Adrian Błazeusz",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Laufer",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "17.274",
+   "FIELD3": "33",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.726,
+   "FIELD8": 14.726
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.937",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.063,
+   "FIELD8": 10.063
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "17.231",
+   "FIELD3": "33",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.769,
+   "FIELD8": 12.769
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "17.750",
+   "FIELD3": "0",
+   "FIELD4": "22",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.25,
+   "FIELD8": 8.25
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "17.738",
+   "FIELD3": "32",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.262,
+   "FIELD8": 11.262
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "18.174",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "33",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.826,
+   "FIELD8": 14.826
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "17.537",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.463,
+   "FIELD8": 6.463
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "17.537",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.463,
+   "FIELD8": 9.463
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "17.063",
+   "FIELD3": "33",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.937,
+   "FIELD8": 14.937
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "80",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "102.759",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Alan Le Gall",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "France",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Drops",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "15.697",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.303,
+   "FIELD8": 12.303
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "14.393",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.607,
+   "FIELD8": 11.607
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "16.719",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.281,
+   "FIELD8": 9.281
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "15.260",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.74,
+   "FIELD8": 13.74
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "14.858",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.142,
+   "FIELD8": 13.142
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "15.917",
+   "FIELD3": "0",
+   "FIELD4": "44",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.083,
+   "FIELD8": 12.083
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "16.335",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.665,
+   "FIELD8": 7.665
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "14.566",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.434,
+   "FIELD8": 10.434
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "14.931",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.069,
+   "FIELD8": 10.069
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "59",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "100.324",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Alexander Zhurov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Karina",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "15.320",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.68,
+   "FIELD8": 9.68
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.502",
+   "FIELD3": "2",
+   "FIELD4": "33",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.498,
+   "FIELD8": 11.498
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "16.397",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "43",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.603,
+   "FIELD8": 10.603
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "16.441",
+   "FIELD3": "0",
+   "FIELD4": "23",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.559,
+   "FIELD8": 8.559
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "16.507",
+   "FIELD3": "22",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.493,
+   "FIELD8": 9.493
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "16.682",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.318,
+   "FIELD8": 7.318
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "17.056",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.944,
+   "FIELD8": 6.944
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "14.875",
+   "FIELD3": "22",
+   "FIELD4": "2",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.125,
+   "FIELD8": 14.125
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "15.112",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.888,
+   "FIELD8": 7.888
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "51",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "86.108",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Alperen Alkan",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Turkey",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Nirvana",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "13.882",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.118,
+   "FIELD8": 8.118
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.804",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.196,
+   "FIELD8": 11.196
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "12.275",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.725,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.234",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.766,
+   "FIELD8": 13.766
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "11.499",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.501,
+   "FIELD8": 16.501
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.660",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.34,
+   "FIELD8": 10.34
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "10.590",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.41,
+   "FIELD8": 13.41
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.054",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.946,
+   "FIELD8": 15.946
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "10.287",
+   "FIELD3": "44",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.713,
+   "FIELD8": 20.713
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "44",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "109.990",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Andrey Sviridov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Genia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.635",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.365,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "15.304",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.696,
+   "FIELD8": 8.696
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "13.404",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.596,
+   "FIELD8": 8.596
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "15.603",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.397,
+   "FIELD8": 6.397
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "15.541",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.459,
+   "FIELD8": 6.459
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "15.248",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.752,
+   "FIELD8": 6.752
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "14.756",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.244,
+   "FIELD8": 12.244
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "14.341",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.659,
+   "FIELD8": 9.659
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "14.140",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.86,
+   "FIELD8": 7.86
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "25",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "66.663",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Anna Sokólska",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Laufer",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "11.466",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.534,
+   "FIELD8": 10.534
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.261",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.739,
+   "FIELD8": 17.739
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.656",
+   "FIELD3": "32",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.344,
+   "FIELD8": 17.344
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "10.892",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.108,
+   "FIELD8": 14.108
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.156",
+   "FIELD3": "42",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.844,
+   "FIELD8": 13.844
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.379",
+   "FIELD3": "22",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.621,
+   "FIELD8": 16.621
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.241",
+   "FIELD3": "32",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.759,
+   "FIELD8": 18.759
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.238",
+   "FIELD3": "22",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.762,
+   "FIELD8": 18.762
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.212",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.788,
+   "FIELD8": 12.788
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "65",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "140.499",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Anna Sterczyńska",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Tajfun",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "16.441",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.559,
+   "FIELD8": 11.559
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "15.721",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.279,
+   "FIELD8": 7.279
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "15.150",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.85,
+   "FIELD8": 10.85
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "15.088",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.912,
+   "FIELD8": 11.912
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "15.192",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "33",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.808,
+   "FIELD8": 14.808
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "15.975",
+   "FIELD3": "33",
+   "FIELD4": "32",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.025,
+   "FIELD8": 15.025
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "15.319",
+   "FIELD3": "43",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.681,
+   "FIELD8": 13.681
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "15.593",
+   "FIELD3": "333",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.407,
+   "FIELD8": 15.407
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "15.177",
+   "FIELD3": "423",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.823,
+   "FIELD8": 15.823
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "76",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "116.344",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Anna-Erika Tamminen",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Finland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Szynka",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "13.029",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.971,
+   "FIELD8": 8.971
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "13.690",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.31,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "14.992",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.008,
+   "FIELD8": 7.008
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "13.512",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.488,
+   "FIELD8": 12.488
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "14.824",
+   "FIELD3": "0",
+   "FIELD4": "34",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.176,
+   "FIELD8": 12.176
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "14.725",
+   "FIELD3": "0",
+   "FIELD4": "33",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.275,
+   "FIELD8": 11.275
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "14.047",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.953,
+   "FIELD8": 8.953
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.330",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.67,
+   "FIELD8": 9.67
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.702",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.298,
+   "FIELD8": 8.298
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "30",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "78.839",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Anni Jauhiainen",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Finland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Bellaria",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.754",
+   "FIELD3": "0",
+   "FIELD4": "34",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.246,
+   "FIELD8": 14.246
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "13.304",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.696,
+   "FIELD8": 13.696
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "13.631",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.369,
+   "FIELD8": 11.369
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "13.564",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.436,
+   "FIELD8": 11.436
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "13.670",
+   "FIELD3": "0",
+   "FIELD4": "23",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.33,
+   "FIELD8": 11.33
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.738",
+   "FIELD3": "0",
+   "FIELD4": "32",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.262,
+   "FIELD8": 14.262
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "14.426",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.574,
+   "FIELD8": 10.574
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "13.408",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.592,
+   "FIELD8": 11.592
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.763",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.237,
+   "FIELD8": 11.237
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "52",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "109.742",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Bohdan Włostowski",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Laweron",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.321",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.679,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "17.518",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.482,
+   "FIELD8": 7.482
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "12.052",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.948,
+   "FIELD8": 11.948
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.690",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.31,
+   "FIELD8": 9.31
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.460",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.54,
+   "FIELD8": 9.54
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.464",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.536,
+   "FIELD8": 10.536
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.412",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.588,
+   "FIELD8": 11.588
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "10.438",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.562,
+   "FIELD8": 11.562
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "10.004",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.996,
+   "FIELD8": 13.996
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "25",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "85.962",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Denise Locher",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Switzerland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Urania (Gruba)",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.369",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.631,
+   "FIELD8": 10.631
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "15.961",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.039,
+   "FIELD8": 6.039
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "15.111",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.889,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "14.720",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.28,
+   "FIELD8": 9.28
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "16.308",
+   "FIELD3": "0",
+   "FIELD4": "42",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.692,
+   "FIELD8": 9.692
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.793",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.207,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "15.033",
+   "FIELD3": "0",
+   "FIELD4": "22",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.967,
+   "FIELD8": 10.967
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "15.270",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.73,
+   "FIELD8": 8.73
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "14.446",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.554,
+   "FIELD8": 7.554
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "29",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "62.893",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Dorota Cibor",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Józefinka",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.557",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.443,
+   "FIELD8": 11.443
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.633",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.367,
+   "FIELD8": 14.367
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.222",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.778,
+   "FIELD8": 10.778
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "11.957",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.043,
+   "FIELD8": 14.043
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "10.583",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.417,
+   "FIELD8": 14.417
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.102",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.898,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "9.953",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.047,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "9.508",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.492,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "8.747",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.253,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "23",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "65.048",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Dumitru Baljicov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Moldova",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Perfekcja",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.284",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.716,
+   "FIELD8": 12.716
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.361",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.639,
+   "FIELD8": 9.639
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "12.076",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.924,
+   "FIELD8": 10.924
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.199",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.801,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "13.416",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.584,
+   "FIELD8": 8.584
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.992",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.008,
+   "FIELD8": 12.008
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "13.715",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.285,
+   "FIELD8": 9.285
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "14.374",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.626,
+   "FIELD8": 8.626
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.805",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.195,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "24",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "71.782",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Elisabeth Stöcklin",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Switzerland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Jagoda",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "15.817",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.183,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.068",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.932,
+   "FIELD8": 5.932
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "14.883",
+   "FIELD3": "0",
+   "FIELD4": "22",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.117,
+   "FIELD8": 9.117
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "14.750",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.25,
+   "FIELD8": 8.25
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "15.653",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.347,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "16.823",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.177,
+   "FIELD8": 5.177
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "16.996",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.004,
+   "FIELD8": 7.004
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "17.494",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.506,
+   "FIELD8": 5.506
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "17.269",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.731,
+   "FIELD8": 5.731
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "21",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "46.717",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Emrah KOÇ",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Turkey",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Browar",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.352",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.648,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "13.159",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.841,
+   "FIELD8": 9.841
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "14.597",
+   "FIELD3": "23",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.403,
+   "FIELD8": 10.403
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.004",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.996,
+   "FIELD8": 10.996
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.154",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.846,
+   "FIELD8": 9.846
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.692",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.308,
+   "FIELD8": 10.308
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "12.532",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.468,
+   "FIELD8": 11.468
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.181",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.819,
+   "FIELD8": 10.819
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.822",
+   "FIELD3": "0",
+   "FIELD4": "22",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.178,
+   "FIELD8": 13.178
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "28",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "86.859",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Haonan Zhang",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "China",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Enito",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "11.099",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.901,
+   "FIELD8": 12.901
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "10.849",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.151,
+   "FIELD8": 11.151
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.362",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.638,
+   "FIELD8": 10.638
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "10.873",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.127,
+   "FIELD8": 12.127
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "11.138",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.862,
+   "FIELD8": 10.862
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.405",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.595,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.528",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.472,
+   "FIELD8": 16.472
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.565",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.435,
+   "FIELD8": 11.435
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "11.649",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.351,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "24",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "85.586",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "István Csernák",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Hungary",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Baltic Paco Cookie",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "13.036",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.964,
+   "FIELD8": 9.964
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.881",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.119,
+   "FIELD8": 9.119
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "13.117",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.883,
+   "FIELD8": 14.883
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.807",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.193,
+   "FIELD8": 9.193
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "13.128",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.872,
+   "FIELD8": 13.872
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.382",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.618,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "13.288",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.712,
+   "FIELD8": 8.712
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "13.288",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.712,
+   "FIELD8": 11.712
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.553",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.447,
+   "FIELD8": 8.447
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "31",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "85.902",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "István Tóth",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Hungary",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Havana",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.339",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.661,
+   "FIELD8": 9.661
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.696",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.304,
+   "FIELD8": 11.304
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.937",
+   "FIELD3": "24",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.063,
+   "FIELD8": 14.063
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "11.661",
+   "FIELD3": "0",
+   "FIELD4": "33",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.339,
+   "FIELD8": 16.339
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.779",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.221,
+   "FIELD8": 10.221
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.301",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.699,
+   "FIELD8": 12.699
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.486",
+   "FIELD3": "0",
+   "FIELD4": "242",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.514,
+   "FIELD8": 16.514
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.474",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.526,
+   "FIELD8": 11.526
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "11.981",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.019,
+   "FIELD8": 15.019
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "45",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "117.346",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Jan Pomaski",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Laufer",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "16.789",
+   "FIELD3": "2",
+   "FIELD4": "34",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.211,
+   "FIELD8": 14.211
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.712",
+   "FIELD3": "0",
+   "FIELD4": "224",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.288,
+   "FIELD8": 14.288
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "16.443",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.557,
+   "FIELD8": 12.557
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "17.789",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.211,
+   "FIELD8": 9.211
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "14.930",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.07,
+   "FIELD8": 13.07
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "17.325",
+   "FIELD3": "23",
+   "FIELD4": "0",
+   "FIELD5": "33",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.675,
+   "FIELD8": 13.675
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "15.988",
+   "FIELD3": "22",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.012,
+   "FIELD8": 14.012
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "16.522",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "422",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.478,
+   "FIELD8": 15.478
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "16.821",
+   "FIELD3": "32",
+   "FIELD4": "3",
+   "FIELD5": "32",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.179,
+   "FIELD8": 16.179
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "92",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "122.681",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Johannes Hofmeister",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Germany",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Drops",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "13.232",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.768,
+   "FIELD8": 9.768
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.752",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.248,
+   "FIELD8": 9.248
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "10.478",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.522,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "11.703",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.297,
+   "FIELD8": 11.297
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.175",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.825,
+   "FIELD8": 10.825
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.555",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.445,
+   "FIELD8": 10.445
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.922",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.078,
+   "FIELD8": 11.078
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.227",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.773,
+   "FIELD8": 10.773
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.614",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.386,
+   "FIELD8": 11.386
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "23",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "84.820",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Kornél Boldizsár",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Serbia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Harfa",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "16.734",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.266,
+   "FIELD8": 9.266
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.813",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.187,
+   "FIELD8": 9.187
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.563",
+   "FIELD3": "42",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.437,
+   "FIELD8": 14.437
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "11.232",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.768,
+   "FIELD8": 13.768
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "11.779",
+   "FIELD3": "24",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.221,
+   "FIELD8": 14.221
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.779",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.221,
+   "FIELD8": 12.221
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "12.453",
+   "FIELD3": "34",
+   "FIELD4": "0",
+   "FIELD5": "34",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.547,
+   "FIELD8": 21.547
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.873",
+   "FIELD3": "23",
+   "FIELD4": "4",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.127,
+   "FIELD8": 20.127
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "11.909",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.091,
+   "FIELD8": 11.091
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "64",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "125.865",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "László Gulyás",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Hungary",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Harfa",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.342",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.658,
+   "FIELD8": 8.658
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "13.609",
+   "FIELD3": "33",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.391,
+   "FIELD8": 12.391
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "14.761",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.239,
+   "FIELD8": 11.239
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "13.960",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.04,
+   "FIELD8": 9.04
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "14.045",
+   "FIELD3": "0",
+   "FIELD4": "23",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.955,
+   "FIELD8": 10.955
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "14.163",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.837,
+   "FIELD8": 12.837
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "14.074",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.926,
+   "FIELD8": 8.926
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.806",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.194,
+   "FIELD8": 9.194
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.630",
+   "FIELD3": "2",
+   "FIELD4": "22",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.37,
+   "FIELD8": 13.37
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "41",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "96.610",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Laura Seppä",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Finland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Karina",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "17.271",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.729,
+   "FIELD8": 4.729
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.620",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.38,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "16.582",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.418,
+   "FIELD8": 5.418
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "19.634",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 0.366,
+   "FIELD8": 2.366
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "17.362",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.638,
+   "FIELD8": 6.638
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "16.179",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.821,
+   "FIELD8": 9.821
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "15.582",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.418,
+   "FIELD8": 8.418
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "16.478",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.522,
+   "FIELD8": 5.522
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "17.684",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.316,
+   "FIELD8": 5.316
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "25",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "48.228",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Leszek Moniakowski",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Sylwina",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.287",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.713,
+   "FIELD8": 14.713
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "14.585",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "23",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.415,
+   "FIELD8": 13.415
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "15.010",
+   "FIELD3": "32",
+   "FIELD4": "4",
+   "FIELD5": "32",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.99,
+   "FIELD8": 18.99
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "15.102",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.898,
+   "FIELD8": 9.898
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "14.377",
+   "FIELD3": "242",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.623,
+   "FIELD8": 15.623
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.369",
+   "FIELD3": "32",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.631,
+   "FIELD8": 14.631
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "14.140",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "32",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.86,
+   "FIELD8": 16.86
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "13.516",
+   "FIELD3": "34",
+   "FIELD4": "43",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.484,
+   "FIELD8": 20.484
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.711",
+   "FIELD3": "332",
+   "FIELD4": "2",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.289,
+   "FIELD8": 20.289
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "93",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "144.903",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Li Zhang",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "China",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Enito",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "9.048",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.952,
+   "FIELD8": 15.952
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.035",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.965,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "9.130",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.87,
+   "FIELD8": 13.87
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "9.689",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.311,
+   "FIELD8": 12.311
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "10.460",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.54,
+   "FIELD8": 12.54
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "9.459",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.541,
+   "FIELD8": 13.541
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "9.594",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.406,
+   "FIELD8": 14.406
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "9.483",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.517,
+   "FIELD8": 12.517
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "9.447",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.553,
+   "FIELD8": 12.553
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "24",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "107.690",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Liubov Moroka",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Kapsel",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "7.866",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.134,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "7.991",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.009,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "8.417",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.583,
+   "FIELD8": 14.583
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "8.132",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.868,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "8.604",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.396,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "8.353",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.647,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "9.220",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.78,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "9.684",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.316,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "9.043",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.957,
+   "FIELD8": 13.957
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "6",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "28.540",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Maciej Sekuła",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Walida",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.760",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.24,
+   "FIELD8": 9.24
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.292",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.708,
+   "FIELD8": 9.708
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.078",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.922,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "10.863",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.137,
+   "FIELD8": 11.137
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.449",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.551,
+   "FIELD8": 10.551
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.125",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.875,
+   "FIELD8": 12.875
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.580",
+   "FIELD3": "0",
+   "FIELD4": "33",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.42,
+   "FIELD8": 14.42
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "10.956",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.044,
+   "FIELD8": 12.044
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.171",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.829,
+   "FIELD8": 10.829
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "26",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "90.804",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Maja Józefowska",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Keja",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.555",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.445,
+   "FIELD8": 10.445
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.793",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.207,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.470",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.53,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.192",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.808,
+   "FIELD8": 13.808
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "11.859",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.141,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.144",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.856,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.048",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.952,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "10.922",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.078,
+   "FIELD8": 12.078
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "10.799",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.201,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "12",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "36.331",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Manuele Gualdana",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Italy",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Perfekcja",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "11.880",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.12,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "12.403",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.597,
+   "FIELD8": 9.597
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "14.730",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.27,
+   "FIELD8": 8.27
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "15.164",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.836,
+   "FIELD8": 10.836
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "16.536",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.464,
+   "FIELD8": 9.464
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "15.951",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.049,
+   "FIELD8": 10.049
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "15.089",
+   "FIELD3": "22",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.911,
+   "FIELD8": 10.911
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "15.022",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.978,
+   "FIELD8": 7.978
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "32",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "67.105",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Mara Kraus",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Switzerland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Bellaria",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "16.905",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.095,
+   "FIELD8": 5.095
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.675",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.325,
+   "FIELD8": 7.325
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "17.758",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.242,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "18.251",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "23",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.749,
+   "FIELD8": 8.749
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "18.208",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.792,
+   "FIELD8": 6.792
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "18.200",
+   "FIELD3": "42",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.8,
+   "FIELD8": 7.8
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "17.178",
+   "FIELD3": "0",
+   "FIELD4": "33",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.822,
+   "FIELD8": 8.822
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "17.927",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.073,
+   "FIELD8": 4.073
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "18.440",
+   "FIELD3": "4",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.56,
+   "FIELD8": 9.56
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "40",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "58.216",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Marcus Hjortsberg",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Sweden",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Tajfun",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "18.857",
+   "FIELD3": "23",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.143,
+   "FIELD8": 13.143
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "17.900",
+   "FIELD3": "3",
+   "FIELD4": "4",
+   "FIELD5": "223",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.1,
+   "FIELD8": 16.1
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "15.755",
+   "FIELD3": "323",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.245,
+   "FIELD8": 15.245
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "16.426",
+   "FIELD3": "34",
+   "FIELD4": "3",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.574,
+   "FIELD8": 16.574
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "17.628",
+   "FIELD3": "433",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.372,
+   "FIELD8": 15.372
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "18.391",
+   "FIELD3": "22",
+   "FIELD4": "4",
+   "FIELD5": "22",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.609,
+   "FIELD8": 13.609
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "19.246",
+   "FIELD3": "223",
+   "FIELD4": "4",
+   "FIELD5": "334",
+   "FIELD6": "at least 3",
+   "FIELD7": 0.754,
+   "FIELD8": 21.754
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "18.179",
+   "FIELD3": "22",
+   "FIELD4": "44",
+   "FIELD5": "23",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.821,
+   "FIELD8": 18.821
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "18.064",
+   "FIELD3": "2334",
+   "FIELD4": "42",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.936,
+   "FIELD8": 21.936
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "133",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "152.554",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Marjukka Rantanen",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Finland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Szynka",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.141",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.859,
+   "FIELD8": 7.859
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.811",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.189,
+   "FIELD8": 6.189
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "16.800",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.2,
+   "FIELD8": 6.2
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "14.866",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.134,
+   "FIELD8": 9.134
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "14.880",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.12,
+   "FIELD8": 8.12
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "15.649",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.351,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "14.706",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.294,
+   "FIELD8": 7.294
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "14.186",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.814,
+   "FIELD8": 7.814
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.828",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.172,
+   "FIELD8": 10.172
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "23",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "62.782",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Nea Kallio",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Finland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Baltic Paco Cookie",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.961",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.039,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.777",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.223,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "13.203",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.797,
+   "FIELD8": 9.797
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "13.092",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.908,
+   "FIELD8": 9.908
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "13.491",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.509,
+   "FIELD8": 8.509
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "14.533",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.467,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "13.585",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.415,
+   "FIELD8": 8.415
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "14.384",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.616,
+   "FIELD8": 11.616
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.867",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.133,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "16",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "48.245",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Pavel Polykov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Genia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.034",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.966,
+   "FIELD8": 10.966
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.714",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.286,
+   "FIELD8": 14.286
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.363",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.637,
+   "FIELD8": 13.637
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.965",
+   "FIELD3": "4",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.035,
+   "FIELD8": 15.035
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "11.584",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.416,
+   "FIELD8": 10.416
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.336",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.664,
+   "FIELD8": 8.664
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "13.213",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.787,
+   "FIELD8": 13.787
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "13.343",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.657,
+   "FIELD8": 13.657
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.572",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.428,
+   "FIELD8": 13.428
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "47",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "113.876",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Radosław Kożuch",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Drops",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "14.314",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.686,
+   "FIELD8": 8.686
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "15.374",
+   "FIELD3": "32",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.626,
+   "FIELD8": 12.626
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "15.131",
+   "FIELD3": "3",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.869,
+   "FIELD8": 11.869
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "15.572",
+   "FIELD3": "0",
+   "FIELD4": "43",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.428,
+   "FIELD8": 11.428
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "15.919",
+   "FIELD3": "4",
+   "FIELD4": "32",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.081,
+   "FIELD8": 13.081
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "16.120",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.88,
+   "FIELD8": 7.88
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "16.606",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.394,
+   "FIELD8": 9.394
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "17.738",
+   "FIELD3": "0",
+   "FIELD4": "32",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.262,
+   "FIELD8": 7.262
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "14.774",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.226,
+   "FIELD8": 12.226
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "56",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "94.452",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Rafał Siwek",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Hit",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "9.860",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.14,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "10.491",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.509,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "10.029",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.971,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "8.924",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.076,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "9.828",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.172,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "9.500",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.5,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.834",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.166,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.797",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.203,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "11.186",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.814,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "0",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "0.000",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Rebecca  Sweetman",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "United Kingdom",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Gracja",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "18.719",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.281,
+   "FIELD8": 3.281
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "19.356",
+   "FIELD3": "2",
+   "FIELD4": "34",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 0.644,
+   "FIELD8": 12.644
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "19.311",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 0.689,
+   "FIELD8": 2.689
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "18.652",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.348,
+   "FIELD8": 6.348
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "17.777",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.223,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "19.006",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 0.994,
+   "FIELD8": 4.994
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "18.288",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.712,
+   "FIELD8": 4.712
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "18.840",
+   "FIELD3": "0",
+   "FIELD4": "23",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.16,
+   "FIELD8": 6.16
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "17.866",
+   "FIELD3": "0",
+   "FIELD4": "33",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.134,
+   "FIELD8": 8.134
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "39",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "48.962",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Sergey Konovalov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Browar",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.292",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.708,
+   "FIELD8": 9.708
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "13.138",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.862,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "12.120",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.88,
+   "FIELD8": 9.88
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.959",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.041,
+   "FIELD8": 9.041
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.734",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.266,
+   "FIELD8": 9.266
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.352",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.648,
+   "FIELD8": 12.648
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "12.665",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.335,
+   "FIELD8": 11.335
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.353",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.647,
+   "FIELD8": 10.647
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.703",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.297,
+   "FIELD8": 9.297
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "23",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "81.822",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Sergey Odinokov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Browar",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "11.599",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.401,
+   "FIELD8": 11.401
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.755",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.245,
+   "FIELD8": 12.245
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.252",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.748,
+   "FIELD8": 11.748
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "11.516",
+   "FIELD3": "23",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.484,
+   "FIELD8": 13.484
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "11.424",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.576,
+   "FIELD8": 11.576
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "11.198",
+   "FIELD3": "22",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.802,
+   "FIELD8": 12.802
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "11.188",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.812,
+   "FIELD8": 10.812
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.913",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.087,
+   "FIELD8": 15.087
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "11.394",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.606,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "31",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "99.155",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Tímea Gál",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Hungary",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Wenon",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "7.254",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.746,
+   "FIELD8": 14.746
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "7.258",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.742,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "7.296",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.704,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "7.613",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.387,
+   "FIELD8": 15.387
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "7.256",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.744,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "7.509",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.491,
+   "FIELD8": 14.491
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "7.689",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.311,
+   "FIELD8": 16.311
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "7.496",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.504,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "7.606",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.394,
+   "FIELD8": 14.394
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "13",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "75.329",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Tommy Hjortsberg",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Sweden",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Jagoda",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "17.348",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.652,
+   "FIELD8": 4.652
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "16.444",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "4",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.556,
+   "FIELD8": 7.556
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "16.207",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.793,
+   "FIELD8": 7.793
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "15.785",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.215,
+   "FIELD8": 8.215
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "15.095",
+   "FIELD3": "3",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.905,
+   "FIELD8": 11.905
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "15.519",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.481,
+   "FIELD8": 7.481
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "15.726",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.274,
+   "FIELD8": 10.274
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "16.540",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.46,
+   "FIELD8": 5.46
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "14.998",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.002,
+   "FIELD8": 7.002
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "34",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "70.338",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Viktor Kurza",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Russia",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Havana",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "13.145",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.855,
+   "FIELD8": 12.855
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.717",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.283,
+   "FIELD8": 12.283
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "12.491",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.509,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.666",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.334,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "13.284",
+   "FIELD3": "33",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.716,
+   "FIELD8": 15.716
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "13.610",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.39,
+   "FIELD8": 9.39
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "13.679",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.321,
+   "FIELD8": 12.321
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "12.875",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.125,
+   "FIELD8": 11.125
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.143",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.857,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "33",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "73.690",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Vitalij Maslov",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Lithuania",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Pegaz",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "10.502",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 9.498,
+   "FIELD8": 11.498
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "9.394",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 10.606,
+   "FIELD8": 14.606
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "7.939",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 12.061,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "8.214",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.786,
+   "FIELD8": 13.786
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "8.604",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.396,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "8.543",
+   "FIELD3": "0",
+   "FIELD4": "23",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.457,
+   "FIELD8": 16.457
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "8.782",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.218,
+   "FIELD8": 0
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "8.734",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.266,
+   "FIELD8": 13.266
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "8.457",
+   "FIELD3": "0",
+   "FIELD4": "23",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 11.543,
+   "FIELD8": 18.543
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "22",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "88.156",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Wojtek Osiecki",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Poland",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Sylwina",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.601",
+   "FIELD3": "3",
+   "FIELD4": "34",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.399,
+   "FIELD8": 17.399
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "11.656",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.344,
+   "FIELD8": 14.344
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "14.063",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 5.937,
+   "FIELD8": 11.937
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "11.809",
+   "FIELD3": "43",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.191,
+   "FIELD8": 22.191
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.605",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.395,
+   "FIELD8": 13.395
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.609",
+   "FIELD3": "3",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.391,
+   "FIELD8": 17.391
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "12.717",
+   "FIELD3": "0",
+   "FIELD4": "233",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.283,
+   "FIELD8": 17.283
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "13.060",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.94,
+   "FIELD8": 14.94
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "13.149",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 6.851,
+   "FIELD8": 15.851
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "79",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "144.731",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Yavuz Ayaz",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "Turkey",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Nirvana",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "12.136",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.864,
+   "FIELD8": 13.864
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "12.967",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "23",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.033,
+   "FIELD8": 15.033
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "11.986",
+   "FIELD3": "0",
+   "FIELD4": "32",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.014,
+   "FIELD8": 13.014
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "12.539",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.461,
+   "FIELD8": 10.461
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "12.567",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.433,
+   "FIELD8": 9.433
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "12.771",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.229,
+   "FIELD8": 9.229
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "12.091",
+   "FIELD3": "0",
+   "FIELD4": "22",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.909,
+   "FIELD8": 13.909
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "11.671",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 8.329,
+   "FIELD8": 13.329
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "12.213",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 7.787,
+   "FIELD8": 9.787
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "39",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "108.059",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "rider",
+   "FIELD2": "Youn Le Gall",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "country",
+   "FIELD2": "France",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "horse",
+   "FIELD2": "Gracja",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "style",
+   "FIELD2": "Hungarian Style",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run",
+   "FIELD2": "time",
+   "FIELD3": "targets",
+   "FIELD4": "t. points",
+   "FIELD5": "total",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "run 1",
+   "FIELD2": "19.047",
+   "FIELD3": "43",
+   "FIELD4": "3",
+   "FIELD5": "32",
+   "FIELD6": "at least 3",
+   "FIELD7": 0.953,
+   "FIELD8": 15.953
+ },
+ {
+   "FIELD1": "run 2",
+   "FIELD2": "17.931",
+   "FIELD3": "2223",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.069,
+   "FIELD8": 16.069
+ },
+ {
+   "FIELD1": "run 3",
+   "FIELD2": "18.765",
+   "FIELD3": "222",
+   "FIELD4": "0",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.235,
+   "FIELD8": 10.235
+ },
+ {
+   "FIELD1": "run 4",
+   "FIELD2": "18.377",
+   "FIELD3": "34",
+   "FIELD4": "3",
+   "FIELD5": "2",
+   "FIELD6": "at least 3",
+   "FIELD7": 1.623,
+   "FIELD8": 13.623
+ },
+ {
+   "FIELD1": "run 5",
+   "FIELD2": "16.916",
+   "FIELD3": "3234",
+   "FIELD4": "4",
+   "FIELD5": "44",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.084,
+   "FIELD8": 27.084
+ },
+ {
+   "FIELD1": "run 6",
+   "FIELD2": "15.917",
+   "FIELD3": "233",
+   "FIELD4": "0",
+   "FIELD5": "0",
+   "FIELD6": "at least 3",
+   "FIELD7": 4.083,
+   "FIELD8": 12.083
+ },
+ {
+   "FIELD1": "run 7",
+   "FIELD2": "16.780",
+   "FIELD3": "243",
+   "FIELD4": "3",
+   "FIELD5": "23",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.22,
+   "FIELD8": 20.22
+ },
+ {
+   "FIELD1": "run 8",
+   "FIELD2": "17.161",
+   "FIELD3": "323",
+   "FIELD4": "4",
+   "FIELD5": "3",
+   "FIELD6": "at least 3",
+   "FIELD7": 2.839,
+   "FIELD8": 17.839
+ },
+ {
+   "FIELD1": "run 9",
+   "FIELD2": "16.452",
+   "FIELD3": "2332",
+   "FIELD4": "2",
+   "FIELD5": "33",
+   "FIELD6": "at least 3",
+   "FIELD7": 3.548,
+   "FIELD8": 21.548
+ },
+ {
+   "FIELD1": "target points",
+   "FIELD2": "132",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ },
+ {
+   "FIELD1": "results",
+   "FIELD2": "154.654",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": "",
+   "FIELD6": "",
+   "FIELD7": null,
+   "FIELD8": null
+ }
+]
