@@ -65,24 +65,19 @@ public class DbSeeder implements CommandLineRunner {
 
 
         //competition data
+        //GPS2 2019
         Date startDay = Date.valueOf("2019-06-28");
         Competitions competitionsGPS2_19 = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
+
+        //IMAG 2019
+        Date startDayIMAG_19 = Date.valueOf("2019-05-02");
+        Competitions competitionsIMAG_19 = new Competitions("Grunwald 2019 - 8th IMAG", startDayIMAG_19, false, "Grunwald");
+
         //hungarian style data
         Styles stylesHun = new Styles("Hungarian", 1.0, 9);
         ArrayList<Tracks> tracksListHun = new ArrayList<Tracks>();
         Tracks tracksHun = new Tracks("hungarian", 20, 1, 9, stylesHun, 3);
         tracksListHun.add(tracksHun);
-
-        //hun GPS2 2019
-        competitionStyleDataToDb(1,
-                2,
-                3,
-                4,
-                "FIELD2",
-                competitionsGPS2_19,
-                stylesHun,
-                tracksListHun,
-                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
 
         //korean style data
         Styles stylesKor = new Styles("Korean", 1.0, 6);
@@ -94,6 +89,19 @@ public class DbSeeder implements CommandLineRunner {
         tracksListKor.add(tracksKorT);
         tracksListKor.add(tracksKorM);
 
+        //hungarian GPS2 2019
+        competitionStyleDataToDb(1,
+                2,
+                3,
+                4,
+                "FIELD2",
+                competitionsGPS2_19,
+                stylesHun,
+                tracksListHun,
+                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json");
+
+
+
         //korean GPS2 2019
         competitionStyleDataToDb(1,
                 2,
@@ -104,6 +112,28 @@ public class DbSeeder implements CommandLineRunner {
                 stylesKor,
                 tracksListKor,
                 "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_k1.json");
+
+        //hungarian IMAG 2019
+        competitionStyleDataToDb(1,
+                2,
+                3,
+                4,
+                "FIELD2",
+                competitionsIMAG_19,
+                stylesHun,
+                tracksListHun,
+                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h2.json");
+
+        //korean IMAG 2019
+        competitionStyleDataToDb(1,
+                2,
+                3,
+                4,
+                "FIELD2",
+                competitionsIMAG_19,
+                stylesKor,
+                tracksListKor,
+                "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_k2.json");
 
 
 
