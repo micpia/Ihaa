@@ -11,15 +11,17 @@ public class Tracks {
     private Integer firstRun;
     private Integer lastRun;
     private Styles stylesByStylesId;
+    private Integer numberOfTargets;
 
     public Tracks() {}
 
-    public Tracks(String name, int timeLimit, Integer firstRun, Integer lastRun, Styles stylesByStylesId) {
+    public Tracks(String name, int timeLimit, Integer firstRun, Integer lastRun, Styles stylesByStylesId, Integer numberOfTargets) {
         this.name = name;
         this.timeLimit = timeLimit;
         this.firstRun = firstRun;
         this.lastRun = lastRun;
         this.stylesByStylesId = stylesByStylesId;
+        this.numberOfTargets = numberOfTargets;
     }
 
     @Id
@@ -73,6 +75,16 @@ public class Tracks {
         this.lastRun = lastRun;
     }
 
+    @Basic
+    @Column(name = "number_of_targets", nullable = true)
+    public Integer getNumberOfTargets() {
+        return numberOfTargets;
+    }
+
+    public void setNumberOfTargets(Integer numberOfTargets) {
+        this.numberOfTargets = numberOfTargets;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -82,7 +94,8 @@ public class Tracks {
                 timeLimit == tracks.timeLimit &&
                 Objects.equals(name, tracks.name) &&
                 Objects.equals(firstRun, tracks.firstRun) &&
-                Objects.equals(lastRun, tracks.lastRun);
+                Objects.equals(lastRun, tracks.lastRun) &&
+                Objects.equals(numberOfTargets, tracks.numberOfTargets);
     }
 
     @Override

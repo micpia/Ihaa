@@ -200,15 +200,12 @@ public class DbSeeder implements CommandLineRunner {
                         Map.Entry pair = rowIterator.next();
 
                         if (columnNumber == 1) {                 // reading time
-
                             double time = Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString());
                             Runs runs = new Runs(time, runNumber, this.starts, this.tracks);
                             if(!this.runsRepo.existsRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber)) {
                                 this.runsRepo.save(runs);
                             }
-                            runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId()); //crash
-                            int f = 5;
-                            //allRunsTimes.add(Double.parseDouble((pair.getValue().toString().equals("")) ? "0" : pair.getValue().toString()));
+                            runs.setId(this.runsRepo.findRunsByStartsByStartsIdAndTracksByTracksIdAndRunNumber(this.starts, this.tracks, runNumber).getId());
                         }
 
 //                        if (columnNumber >= 2 && columnNumber < numberOfTargets + 2) {            //reading target points, separating them and inserting to one run list TODO change hardcoded 5 for claculated naumber of columns
@@ -276,7 +273,7 @@ public class DbSeeder implements CommandLineRunner {
         Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
         Styles stylesHun = new Styles("Hungarian", 1.0, 9);
         ArrayList<Tracks> tracksList= new ArrayList<Tracks>();
-        Tracks tracksHun = new Tracks("hungarian", 20, 1 , 9, stylesHun);
+        Tracks tracksHun = new Tracks("hungarian", 20, 1 , 9, stylesHun, 3);
         tracksList.add(tracksHun);
         //reading hungarian file and appending data to db
         competitionStyleDataToDb(1,
