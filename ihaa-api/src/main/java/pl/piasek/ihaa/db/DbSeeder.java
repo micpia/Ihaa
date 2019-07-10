@@ -136,16 +136,7 @@ public class DbSeeder implements CommandLineRunner {
                             this.horses.setName(pair.getValue().toString());
                         }
                     }
-                }
-//                else if (rowNumber % rowsInSheet == stylesRow) {              //styles info row
-//                    while (rowIterator.hasNext()) {
-//                        Map.Entry pair = rowIterator.next();
-//                        if (pair.getKey().equals(dataField)) {
-////                            this.stylesName = pair.getValue().toString();
-//                        }
-//                    }
-//                }
-                else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //target points rows
+                } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //target points rows
                     int columnNumber = 0;
                     while (rowIterator.hasNext()) {
                         columnNumber++;
