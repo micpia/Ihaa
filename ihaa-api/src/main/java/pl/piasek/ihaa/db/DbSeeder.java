@@ -2,12 +2,10 @@ package pl.piasek.ihaa.db;
 
 
 import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 import pl.piasek.ihaa.model.*;
 
@@ -15,8 +13,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Date;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Map;
 
 @Component
 public class DbSeeder implements CommandLineRunner {
@@ -36,6 +35,8 @@ public class DbSeeder implements CommandLineRunner {
     private Riders riders;
     private Horses horses;
     private Starts starts;
+    private Tracks tracks;
+
 
 
     @Autowired
@@ -68,10 +69,12 @@ public class DbSeeder implements CommandLineRunner {
                                           String dataField,
                                           Competitions competitions,
                                           Styles styles,
+                                          ArrayList<Tracks> tracksList,
                                           String path,
                                           int numberOfTargets) {
 
         int rowsInSheet = styles.getNumberOfRuns() + 7;
+        //this.tracks = tracks;
 
         //TODO competition data input to database
 
@@ -105,6 +108,7 @@ public class DbSeeder implements CommandLineRunner {
                     this.riders = new Riders();
                     this.horses = new Horses();
                     this.starts =  new Starts();
+                    this.tracks = new Tracks();
                 }
 
                 rowNumber++;
@@ -137,10 +141,22 @@ public class DbSeeder implements CommandLineRunner {
                         }
                     }
                 } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //target points rows
+
+                    //tracks
+                    //assigning proper track to this.tracks
+                    int runNumber= rowNumber % rowsInSheet - (stylesRow + 1);
+                    for(Tracks track: tracksList) {
+                        if(track.getFirstRun() <= runNumber  + 1 && track.getLastRun() >= runNumber  + 1) {
+                            this.tracks = track;
+                        }
+                    }
+
                     int columnNumber = 0;
+
                     while (rowIterator.hasNext()) {
                         columnNumber++;
                         Map.Entry pair = rowIterator.next();
+
 
 
 //                        if (columnNumber == 1) {                 // reading time
@@ -187,14 +203,14 @@ public class DbSeeder implements CommandLineRunner {
                     //riders
                     if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
                         this.riders.setCountriesByCountriesId(countries);
-                        this.ridesRepo.save(riders);
+                        this.ridesRepo.save(this.riders);
                     }
                     this.riders.setId(ridesRepo.findByNameAndSurname(riders.getName(), riders.getSurname()).getId());
                     System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
 
                     //horses
                     if(!this.horsesRepo.existsByName(this.horses.getName())) {
-                        this.horsesRepo.save(horses);
+                        this.horsesRepo.save(this.horses);
                     }
                     this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
                     System.out.println(this.horses.getId() + ": " + this.horses.getName());
@@ -212,35 +228,23 @@ public class DbSeeder implements CommandLineRunner {
                     System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
 
 
+                    //tracks
+                    if(!this.tracksRepo.existsByName(this.tracks.getName())) {
+                        this.tracksRepo.save(this.tracks);
+                    }
+                    this.tracks.setId(this.tracksRepo.findByName(this.tracks.getName()).getId());
+                    System.out.println(this.tracks.getId() + ": " + this.tracks.getName());
+
+
 //                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
 //                    System.out.println(allRunsPoints);
 //                    System.out.println(allRunsTimes);
-//
-//
-//                    if (!countriesRepo.existsByName(this.countriesName)) {
-//                        countriesRepo.save(new Countries(this.countriesName));
-//                    }
-//                    System.out.println(countriesRepo.findByName(this.countriesName).getId());
-//
-//
-//
-//
 //
 //                    this.allRunsPoints.clear();
 //                    this.allRunsTimes.clear();
 
                 }
             }
-
-
-//
-////                    if(rowNumber % rowsInSheet > stylesRow && rowNumber % rowsInSheet < stylesRow + this.numberOfRuns) {       //runs and shots
-////
-////
-////                    }
-//
-//                }
-
 
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
@@ -278,7 +282,12 @@ public class DbSeeder implements CommandLineRunner {
 
         Competitions competitions = new Competitions("Grand Prix Stage 2 Białystok", startDay, false, "Białystok");
 
-        Styles styles = new Styles("Hungarian", 1.0, 9);
+        Styles stylesHun = new Styles("Hungarian", 1.0, 9);
+
+        ArrayList<Tracks> tracksList= new ArrayList<Tracks>();
+        Tracks tracksHun = new Tracks("hungarian", 20, 1 , 9, stylesHun);
+        tracksList.add(tracksHun);
+
 
         competitionStyleDataToDb(1,
                 2,
@@ -286,7 +295,8 @@ public class DbSeeder implements CommandLineRunner {
                 4,
                 "FIELD2",
                 competitions,
-                styles,
+                stylesHun,
+                tracksList,
                 "/home/michal/IdeaProjects/Ihaa/ihaa-api/src/main/resources/static/data/json/scoresheet_h1.json",
                 3); //error for korean track - different number of targets on runs
         //countries.add(new Countries("Hungary"));
