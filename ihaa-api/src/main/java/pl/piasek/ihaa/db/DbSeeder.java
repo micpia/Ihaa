@@ -140,6 +140,44 @@ public class DbSeeder implements CommandLineRunner {
                             this.horses.setName(pair.getValue().toString());
                         }
                     }
+                } else if(rowNumber % rowsInSheet == stylesRow + 1) { //appending queried data to db
+
+                    //countries
+                    if(!this.countriesRepo.existsByName(this.countries.getName())) {
+                        this.countriesRepo.save(countries);
+                    }
+                    this.countries.setId(this.countriesRepo.findByName(this.countries.getName()).getId());
+                    System.out.println(this.countries.getId() +  ": " + this.countries.getName());
+
+                    //riders
+                    if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
+                        this.riders.setCountriesByCountriesId(countries);
+                        this.ridesRepo.save(this.riders);
+                    }
+                    this.riders.setId(ridesRepo.findByNameAndSurname(riders.getName(), riders.getSurname()).getId());
+                    System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
+
+                    //horses
+                    if(!this.horsesRepo.existsByName(this.horses.getName())) {
+                        this.horsesRepo.save(this.horses);
+                    }
+                    this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
+                    System.out.println(this.horses.getId() + ": " + this.horses.getName());
+
+                    //starts
+                    starts.setRidersByRidersId(this.riders);
+                    starts.setCompetitionsByCompetitionsId(competitions);
+                    starts.setHorsesByHorsesId(this.horses);
+
+                    if(!this.startsRepo.existsStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()))
+                    {
+                        this.startsRepo.save(starts);
+                    }
+                    this.starts.setId(this.startsRepo.findStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()).getId());
+                    System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
+
+
+
                 } else if (rowNumber % rowsInSheet > stylesRow + 1 && rowNumber % rowsInSheet <= stylesRow + 1 + styles.getNumberOfRuns()) {   //target points rows
 
                     //tracks
@@ -148,6 +186,12 @@ public class DbSeeder implements CommandLineRunner {
                     for(Tracks track: tracksList) {
                         if(track.getFirstRun() <= runNumber  + 1 && track.getLastRun() >= runNumber  + 1) {
                             this.tracks = track;
+
+                            if(!this.tracksRepo.existsByName(this.tracks.getName())) {
+                                this.tracksRepo.save(this.tracks);
+                            }
+                            this.tracks.setId(this.tracksRepo.findByName(this.tracks.getName()).getId());
+                            System.out.println(this.tracks.getId() + ": " + this.tracks.getName());
                         }
                     }
 
@@ -203,47 +247,8 @@ public class DbSeeder implements CommandLineRunner {
 
                 if (rowNumber % rowsInSheet == rowsInSheet - 1) {             //after each scoresheet appending data do db
 
-                    //countries
-                    if(!this.countriesRepo.existsByName(this.countries.getName())) {
-                        this.countriesRepo.save(countries);
-                    }
-                    this.countries.setId(this.countriesRepo.findByName(this.countries.getName()).getId());
-                    System.out.println(this.countries.getId() +  ": " + this.countries.getName());
-
-                    //riders
-                    if(!this.ridesRepo.existsByNameAndSurname(this.riders.getName(), this.riders.getSurname())) {
-                        this.riders.setCountriesByCountriesId(countries);
-                        this.ridesRepo.save(this.riders);
-                    }
-                    this.riders.setId(ridesRepo.findByNameAndSurname(riders.getName(), riders.getSurname()).getId());
-                    System.out.println(this.riders.getId() + ": " + this.riders.getName() + " " + this.riders.getSurname());
-
-                    //horses
-                    if(!this.horsesRepo.existsByName(this.horses.getName())) {
-                        this.horsesRepo.save(this.horses);
-                    }
-                    this.horses.setId(this.horsesRepo.findByName(this.horses.getName()).getId());
-                    System.out.println(this.horses.getId() + ": " + this.horses.getName());
-
-                    //starts
-                    starts.setRidersByRidersId(this.riders);
-                    starts.setCompetitionsByCompetitionsId(competitions);
-                    starts.setHorsesByHorsesId(this.horses);
-
-                    if(!this.startsRepo.existsStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()))
-                    {
-                        this.startsRepo.save(starts);
-                    }
-                    this.starts.setId(this.startsRepo.findStartsByCompetitionsByCompetitionsIdAndRidersByRidersId(this.starts.getCompetitionsByCompetitionsId(), this.starts.getRidersByRidersId()).getId());
-                    System.out.println(this.starts.getId() + " " + this.starts.getRidersByRidersId().getName() + " " + this.starts.getRidersByRidersId().getSurname() + " " + this.starts.getCompetitionsByCompetitionsId().getName() + " " + this.starts.getHorsesByHorsesId().getName() );
 
 
-                    //tracks
-                    if(!this.tracksRepo.existsByName(this.tracks.getName())) {
-                        this.tracksRepo.save(this.tracks);
-                    }
-                    this.tracks.setId(this.tracksRepo.findByName(this.tracks.getName()).getId());
-                    System.out.println(this.tracks.getId() + ": " + this.tracks.getName());
 
 
 //                    System.out.println(this.ridersName + " " + this.ridersSurname + " " + this.countriesName + " " + this.horsesName + " " + this.stylesName + " " + this.competitionName);
