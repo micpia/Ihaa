@@ -17,5 +17,6 @@
     <include file="version/tracksTable.xml" relativeToChangelogFile="true"/>
     <include file="version/runsTable.xml" relativeToChangelogFile="true"/>
     <include file="version/shotsTable.xml" relativeToChangelogFile="true"/>
+    <include file="version/targetPointsView.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>
