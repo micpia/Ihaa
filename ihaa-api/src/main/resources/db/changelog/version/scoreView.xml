@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="michal" id="74">
+        <createView fullDefinition="false" remarks="" viewName="score">select `ihaadb`.`runs`.`id` AS `runs_id`,(((`ihaadb`.`tracks`.`time_limit` - `ihaadb`.`runs`.`time`) * `ihaadb`.`styles`.`points_per_second`) + `target_points`.`target_points_sum`) AS `score` from (((`ihaadb`.`runs` left join `ihaadb`.`target_points` on((`target_points`.`runs_id` = `ihaadb`.`runs`.`id`))) left join `ihaadb`.`tracks` on((`ihaadb`.`tracks`.`id` = `ihaadb`.`runs`.`tracks_id`))) left join `ihaadb`.`styles` on((`ihaadb`.`tracks`.`styles_id` = `ihaadb`.`styles`.`id`)))</createView>
+    </changeSet>
+</databaseChangeLog>
