@@ -19,5 +19,6 @@
     <include file="version/shotsTable.xml" relativeToChangelogFile="true"/>
     <include file="version/targetPointsView.xml" relativeToChangelogFile="true"/>
     <include file="version/scoreView.xml" relativeToChangelogFile="true"/>
+    <include file="version/styleResultView.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>

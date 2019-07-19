@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="michal" id="75">
+        <createView fullDefinition="false" remarks="" viewName="style_result">select `ihaadb`.`starts`.`id` AS `starts_id`,`ihaadb`.`tracks`.`styles_id` AS `styles_id`,sum(`target_points`.`target_points_sum`) AS `all_targets`,count(`target_points`.`target_points_sum`) AS `all_runs`,sum(`score`.`score`) AS `all_score` from ((`ihaadb`.`runs` left join `ihaadb`.`target_points` on((`target_points`.`runs_id` = `ihaadb`.`runs`.`id`))) left join `ihaadb`.`score` on((`score`.`runs_id` = `ihaadb`.`runs`.`id`))) join `ihaadb`.`starts` join `ihaadb`.`tracks` where ((`ihaadb`.`starts`.`id` = `ihaadb`.`runs`.`starts_id`) and (`ihaadb`.`tracks`.`id` = `ihaadb`.`runs`.`tracks_id`)) group by `ihaadb`.`starts`.`id`,`ihaadb`.`tracks`.`styles_id`</createView>
+    </changeSet>
+</databaseChangeLog>
