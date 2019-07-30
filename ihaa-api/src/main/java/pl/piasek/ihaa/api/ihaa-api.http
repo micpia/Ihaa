@@ -3,3 +3,10 @@
 GET {{host-url}}//styleResult/all
 
 ###
+
+
+# API STYLES RESULT MANAGEMENT
+
+GET {{host-url}}//lastResult/all
+
+###
