@@ -1,0 +1,5 @@
+# API STYLES RESULT MANAGEMENT
+
+GET {{host-url}}//styleResult/all
+
+###

@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import java.util.Objects;
 
 @Entity
-@IdClass(StylesResultCompositeKey.class)
+@IdClass(StyleResultCompositeKey.class)
 @Table(name = "style_result", schema = "ihaadb", catalog = "")
 public class StyleResult {
     @Id
