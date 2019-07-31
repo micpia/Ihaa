@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import {HorsesComponent} from "./horses/horses.component";
 import {LastResultComponent} from "./last-result/last-result.component";
 import {NotFoundComponent} from "./not-found/not-found.component";
+import {CountriesComponent} from "./countries/countries.component";
+import {RidersViewComponent} from "./riders-view/riders-view.component";
 
 const routes: Routes = [
   {
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path:'lastResult',
     component:LastResultComponent
+  },
+  {
+    path:'countries',
+    component:CountriesComponent
+  },
+  {
+    path:'ridersView',
+    component:RidersViewComponent
   },
   {
     path:'',

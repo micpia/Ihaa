@@ -7,6 +7,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HorsesComponent } from './horses/horses.component';
 import { LastResultComponent } from './last-result/last-result.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { CountriesComponent } from './countries/countries.component';
+import { RidersViewComponent } from './riders-view/riders-view.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NavigationComponent,
     HorsesComponent,
     LastResultComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CountriesComponent,
+    RidersViewComponent
   ],
   imports: [
     BrowserModule,
