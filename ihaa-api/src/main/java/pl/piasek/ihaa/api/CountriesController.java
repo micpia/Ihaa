@@ -1,6 +1,7 @@
 package pl.piasek.ihaa.api;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,6 +18,7 @@ public class CountriesController {
 
     private CountriesRepo countriesRepo;
 
+    @Autowired
     public CountriesController(CountriesRepo countriesRepo) {
         this.countriesRepo = countriesRepo;
     }

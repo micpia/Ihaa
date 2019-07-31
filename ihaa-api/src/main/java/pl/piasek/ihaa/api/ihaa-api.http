@@ -24,3 +24,10 @@ GET {{host-url}}//horses/all
 GET {{host-url}}//countries/all
 
 ###
+
+#################################################################################################
+# API RIDERS VIEW MANAGEMENT
+
+GET {{host-url}}//ridersView/all
+
+###
