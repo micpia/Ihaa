@@ -21,5 +21,6 @@
     <include file="version/scoreView.xml" relativeToChangelogFile="true"/>
     <include file="version/styleResultView.xml" relativeToChangelogFile="true"/>
     <include file="version/lastResultView.xml" relativeToChangelogFile="true"/>
+    <include file="version/ridersView.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>
