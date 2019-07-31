@@ -17,11 +17,12 @@ public class LastResultController {
 
     private LastResultRepo lastResultRepo;
 
+    @Autowired
     public LastResultController(LastResultRepo lastResultRepo) {
     this.lastResultRepo = lastResultRepo;
     }
 
-    @Autowired
+
     @RequestMapping(value = "/all", method = RequestMethod.GET)
     public List<LastResult> getAll() {
         return lastResultRepo.findAll();
