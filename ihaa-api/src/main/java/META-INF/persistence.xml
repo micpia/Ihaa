@@ -16,6 +16,7 @@
         <class>pl.piasek.ihaa.model.Score</class>
         <class>pl.piasek.ihaa.model.StyleResult</class>
         <class>pl.piasek.ihaa.model.TargetPoints</class>
+        <class>pl.piasek.ihaa.model.RidersView</class>
         <properties>
             <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/ihaadb"/>
             <property name="toplink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
