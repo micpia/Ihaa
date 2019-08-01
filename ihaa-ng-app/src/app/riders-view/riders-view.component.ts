@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-riders-view',
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RidersViewComponent implements OnInit {
 
-  constructor() { }
+  riders: RidersViewComponent[] = [];
+  constructor(private http: HttpClient) {
+  }
 
   ngOnInit() {
+    this.getAllRiders();
+  }
+
+  public getAllRiders() {
+    let url = "http://localhost:8080/api/ridersView/all";
+    this.http.get<RidersViewComponent[]>(url).subscribe(
+      res => {
+      this.riders = res;
+      },
+      error => {
+        alert("Error has occurred!");
+      }
+    )
   }
 
 }

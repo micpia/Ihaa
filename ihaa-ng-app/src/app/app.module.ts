@@ -9,6 +9,7 @@ import { LastResultComponent } from './last-result/last-result.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CountriesComponent } from './countries/countries.component';
 import { RidersViewComponent } from './riders-view/riders-view.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RidersViewComponent } from './riders-view/riders-view.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
