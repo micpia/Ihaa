@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {ApiService} from "../shared/api.service";
+import {RidersView} from "../model/riders-view";
 
 @Component({
   selector: 'app-riders-view',
@@ -8,8 +9,8 @@ import {HttpClient} from "@angular/common/http";
 })
 export class RidersViewComponent implements OnInit {
 
-  riders: RidersViewComponent[] = [];
-  constructor(private http: HttpClient) {
+  riders: RidersView[] = [];
+  constructor(private apiService:ApiService) {
   }
 
   ngOnInit() {
@@ -17,8 +18,8 @@ export class RidersViewComponent implements OnInit {
   }
 
   public getAllRiders() {
-    let url = "http://localhost:8080/api/ridersView/all";
-    this.http.get<RidersViewComponent[]>(url).subscribe(
+
+    this.apiService.getAllRiders().subscribe(
       res => {
       this.riders = res;
       },
