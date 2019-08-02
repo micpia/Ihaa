@@ -1,7 +1,7 @@
 <table class="table">
   <thead>
   <tr>
-    <th scope="col">timestamp</th>
+    <th scope="col">time</th>
     <th scope="col">name</th>
     <th scope="col">surname</th>
     <th scope="col">horse</th>
@@ -31,11 +31,11 @@
     <td>{{lastResult.run}}</td>
     <td>{{lastResult.time}}</td>
     <td>{{lastResult.targets}}</td>
-    <td>{{lastResult.score}}</td>
+    <td>{{lastResult.score | number : '1.0-2'}}</td>
     <td>{{lastResult.target}}</td>
     <td>{{lastResult.allRuns}}</td>
     <td>{{lastResult.allTargets}}</td>
-    <td>{{lastResult.allScore}}</td>
+    <td>{{lastResult.allScore | number : '1.0-2'}}</td>
 
   </tr>
   </tbody>
