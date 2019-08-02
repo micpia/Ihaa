@@ -5,12 +5,12 @@
             <column autoIncrement="true" name="id" type="INT">
                 <constraints primaryKey="true"/>
             </column>
-            <column name="name" type="VARCHAR(255)">
+            <column name="name" type="NVARCHAR(255) ">
                 <constraints nullable="false"/>
             </column>
             <column name="start_day" type="date"/>
             <column name="status" type="TINYINT(3)"/>
-            <column name="location" type="VARCHAR(255)"/>
+            <column name="location" type="NVARCHAR(255)"/>
         </createTable>
     </changeSet>
 </databaseChangeLog>

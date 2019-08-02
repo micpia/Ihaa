@@ -5,10 +5,10 @@
             <column autoIncrement="true" name="id" type="INT">
                 <constraints primaryKey="true"/>
             </column>
-            <column name="name" type="VARCHAR(255)">
+            <column name="name" type="NVARCHAR(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="surname" type="VARCHAR(255)">
+            <column name="surname" type="NVARCHAR(255)">
                 <constraints nullable="false"/>
             </column>
             <column name="lefthanded" type="TINYINT(3)"/>
