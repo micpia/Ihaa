@@ -1,1 +1,19 @@
-<p>riders-view works!</p>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">name</th>
+    <th scope="col">surname</th>
+    <th scope="col">country</th>
+    <th scope="col">left handed</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr *ngFor="let rider of riders">
+    <td>{{rider.name}}</td>
+    <td>{{rider.surname}}</td>
+    <td>{{rider.country}}</td>
+    <td>{{rider.lefthanded}}</td>
+  </tr>
+  </tbody>
+</table>
