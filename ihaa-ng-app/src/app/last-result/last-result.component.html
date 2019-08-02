@@ -1,1 +1,42 @@
-<p>last-result works!</p>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">timestamp</th>
+    <th scope="col">name</th>
+    <th scope="col">surname</th>
+    <th scope="col">horse</th>
+    <th scope="col">competition</th>
+    <th scope="col">style</th>
+    <th scope="col">run</th>
+    <th scope="col">time</th>
+    <th scope="col">targets</th>
+    <th scope="col">score</th>
+    <th scope="col">target</th>
+    <th scope="col">all runs</th>
+    <th scope="col">all targets</th>
+    <th scope="col">all score</th>
+
+
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr *ngFor="let lastResult of lastResults">
+    <td>{{lastResult.timestamp}}</td>
+    <td>{{lastResult.name}}</td>
+    <td>{{lastResult.surname}}</td>
+    <td>{{lastResult.horse}}</td>
+    <td>{{lastResult.competition}}</td>
+    <td>{{lastResult.styles}}</td>
+    <td>{{lastResult.run}}</td>
+    <td>{{lastResult.time}}</td>
+    <td>{{lastResult.targets}}</td>
+    <td>{{lastResult.score}}</td>
+    <td>{{lastResult.target}}</td>
+    <td>{{lastResult.allRuns}}</td>
+    <td>{{lastResult.allTargets}}</td>
+    <td>{{lastResult.allScore}}</td>
+
+  </tr>
+  </tbody>
+</table>

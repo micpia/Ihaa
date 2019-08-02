@@ -1,0 +1,16 @@
+export interface LastResult {
+  timestamp:string,
+  name:string,
+  surname:string,
+  horse:string,
+  competition:string,
+  styles:string,
+  run:number,
+  time:number,
+  targets:string,
+  score:number,
+  target:number,
+  allRuns:number,
+  allTargets:number,
+  allScore:number,
+}
