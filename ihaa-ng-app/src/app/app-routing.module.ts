@@ -6,6 +6,7 @@ import {NotFoundComponent} from "./not-found/not-found.component";
 import {CountriesComponent} from "./countries/countries.component";
 import {RidersViewComponent} from "./riders-view/riders-view.component";
 import {CompetitionsViewComponent} from "./competitions-view/competitions-view.component";
+import {CompetitionPanelComponent} from "./competition-panel/competition-panel.component";
 
 const routes: Routes = [
   {
@@ -29,8 +30,13 @@ const routes: Routes = [
     component:CompetitionsViewComponent
   },
   {
+    path:'competitionPanel',
+    component:CompetitionPanelComponent,
+    pathMatch:'full'
+  },
+  {
     path:'',
-    component:LastResultComponent,
+    component:CompetitionsViewComponent,
     pathMatch:'full'
   },
   {

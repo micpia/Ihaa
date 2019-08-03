@@ -13,7 +13,7 @@
   <tbody>
 
   <tr *ngFor="let competition of competitions">
-    <td class="btn-link" routerLink= "/competitionsView/{{competition.id}}">{{competition.name}}</td>
+    <td class="btn-link" (click)="selectCompetition(competition)" routerLink= "/competitionPanel">{{competition.name}}</td>
     <td>{{competition.startDay}}</td>
     <td>{{competition.location}}</td>
     <td>{{competition.status}}</td>

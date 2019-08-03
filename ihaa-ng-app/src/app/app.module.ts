@@ -11,6 +11,7 @@ import { CountriesComponent } from './countries/countries.component';
 import { RidersViewComponent } from './riders-view/riders-view.component';
 import {HttpClientModule} from "@angular/common/http";
 import { CompetitionsViewComponent } from './competitions-view/competitions-view.component';
+import { CompetitionPanelComponent } from './competition-panel/competition-panel.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CompetitionsViewComponent } from './competitions-view/competitions-view
     NotFoundComponent,
     CountriesComponent,
     RidersViewComponent,
-    CompetitionsViewComponent
+    CompetitionsViewComponent,
+    CompetitionPanelComponent
   ],
   imports: [
     BrowserModule,

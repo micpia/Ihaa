@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CompetitionsView} from "../model/competitions-view";
 import {ApiService} from "../shared/api.service";
+import {BehaviorSubject} from "rxjs";
+import {DataService} from "../shared/data.service";
 
 @Component({
   selector: 'app-competitions-view',
@@ -10,8 +12,10 @@ import {ApiService} from "../shared/api.service";
 export class CompetitionsViewComponent implements OnInit {
 
   competitions: CompetitionsView[] = [];
+  selectedCompetition: CompetitionsView;
 
-  constructor(private apiService: ApiService) { }
+  constructor(private apiService: ApiService, private data: DataService) {
+  }
 
   ngOnInit() {
     this.getAllCompetitions();
@@ -26,5 +30,11 @@ export class CompetitionsViewComponent implements OnInit {
         alert("Error has occurred while fetching competitions view.")
       }
     )
+  }
+
+
+  selectCompetition(competition: CompetitionsView) {
+    this.data.changeCompetition(competition);
+    this.data.currentCompetition.subscribe(selectedCompetition => this.selectedCompetition = selectedCompetition);
   }
 }
