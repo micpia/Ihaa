@@ -5,6 +5,7 @@ import {LastResultComponent} from "./last-result/last-result.component";
 import {NotFoundComponent} from "./not-found/not-found.component";
 import {CountriesComponent} from "./countries/countries.component";
 import {RidersViewComponent} from "./riders-view/riders-view.component";
+import {CompetitionsViewComponent} from "./competitions-view/competitions-view.component";
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path:'ridersView',
     component:RidersViewComponent
+  },
+  {
+    path:'competitionsView',
+    component:CompetitionsViewComponent
   },
   {
     path:'',

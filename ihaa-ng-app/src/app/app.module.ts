@@ -10,6 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { CountriesComponent } from './countries/countries.component';
 import { RidersViewComponent } from './riders-view/riders-view.component';
 import {HttpClientModule} from "@angular/common/http";
+import { CompetitionsViewComponent } from './competitions-view/competitions-view.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {HttpClientModule} from "@angular/common/http";
     LastResultComponent,
     NotFoundComponent,
     CountriesComponent,
-    RidersViewComponent
+    RidersViewComponent,
+    CompetitionsViewComponent
   ],
   imports: [
     BrowserModule,

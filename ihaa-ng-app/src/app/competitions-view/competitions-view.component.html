@@ -1,0 +1,25 @@
+<table class="table table-hover table-sm">
+  <thead>
+  <tr>
+    <th scope="col">name</th>
+    <th scope="col">start day</th>
+    <th scope="col">location</th>
+    <th scope="col">status</th>
+    <th scope="col">riders</th>
+    <th scope="col">horses</th>
+    <th scope="col">styles</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr *ngFor="let competition of competitions">
+    <td>{{competition.name}}</td>
+    <td>{{competition.startDay}}</td>
+    <td>{{competition.location}}</td>
+    <td>{{competition.status}}</td>
+    <td>{{competition.riders}}</td>
+    <td>{{competition.horses}}</td>
+    <td>{{competition.styles}}</td>
+  </tr>
+  </tbody>
+</table>

@@ -5,6 +5,7 @@ import {RidersView} from "../model/riders-view";
 import {Horse} from "../model/horse";
 import {Country} from "../model/country";
 import {LastResult} from "../model/last-result";
+import {CompetitionsView} from "../model/competitions-view";
 
 @Injectable({
   providedIn: 'root'
@@ -16,6 +17,7 @@ export class ApiService {
   private ALL_HORSES_URL = `${this.BASE_URL}\\horses\\all`;
   private ALL_COUNTRIES_URL = `${this.BASE_URL}\\countries\\all`;
   private ALL_LAST_RESULT_URL = `${this.BASE_URL}\\lastResult\\all`;
+  private ALL_COMPETITIONS_URL = `${this.BASE_URL}\\competitionsView\\all`;
 
   constructor(private http: HttpClient) { }
 
@@ -33,5 +35,9 @@ export class ApiService {
 
   getAllLastResults() : Observable<LastResult[]> {
     return this.http.get<LastResult[]>(this.ALL_LAST_RESULT_URL);
+  }
+
+  getAllCompetitionsView() : Observable<CompetitionsView[]> {
+    return this.http.get<CompetitionsView[]>(this.ALL_COMPETITIONS_URL);
   }
 }
