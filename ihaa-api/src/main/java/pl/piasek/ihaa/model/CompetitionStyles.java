@@ -4,13 +4,16 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
+@IdClass(CompetitionStylesCompositeKey.class)
 @Table(name = "competition_styles", schema = "ihaadb", catalog = "")
 public class CompetitionStyles {
+    @Id
     private Integer competitionsId;
     private String competition;
+    @Id
     private String style;
 
-    @Id
+
     @Column(name = "competitions_id", nullable = true)
     public Integer getCompetitionsId() {
         return competitionsId;
