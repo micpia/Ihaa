@@ -30,14 +30,14 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
+    <tr >
       <td class="font-weight-bold">Final ranking (percent)</td>
       <td class="btn-link">senior category</td>
       <td class="btn-link">junior category</td>
       <td class="btn-link">mixed</td>
     </tr>
-    <tr>
-      <td class="font-weight-bold">Style ranking</td>
+    <tr *ngFor = "let style of styles">
+      <td class="font-weight-bold">Style ranking {{style.style}}</td>
       <td class="btn-link">senior category</td>
       <td class="btn-link">junior category</td>
       <td class="btn-link">mixed</td>

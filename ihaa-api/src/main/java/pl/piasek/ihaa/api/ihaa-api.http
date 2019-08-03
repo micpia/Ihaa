@@ -44,6 +44,6 @@ GET {{host-url}}//competitionStyles/all
 
 ###
 
-GET {{host-url}}//competitionStyles/2
+GET {{host-url}}//competitionStyles/1
 
 ###
