@@ -23,5 +23,6 @@
     <include file="version/lastResultView.xml" relativeToChangelogFile="true"/>
     <include file="version/ridersView.xml" relativeToChangelogFile="true"/>
     <include file="version/competitionsView.xml" relativeToChangelogFile="true"/>
+    <include file="version/competitionStyles.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>
