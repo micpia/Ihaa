@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="michal" id="78">
+        <createView fullDefinition="false" remarks="" viewName="competitions_view">select `c`.`id` AS `id`,`c`.`name` AS `name`,`c`.`start_day` AS `start_day`,`c`.`status` AS `status`,`c`.`location` AS `location`,count(distinct `r`.`starts_id`) AS `riders`,count(distinct `s`.`horses_id`) AS `horses`,count(distinct `t`.`styles_id`) AS `styles` from (((`ihaadb`.`competitions` `c` left join `ihaadb`.`starts` `s` on((`c`.`id` = `s`.`competitions_id`))) left join `ihaadb`.`runs` `r` on((`s`.`id` = `r`.`starts_id`))) left join `ihaadb`.`tracks` `t` on((`r`.`tracks_id` = `t`.`id`))) group by `c`.`id`</createView>
+    </changeSet>
+</databaseChangeLog>
