@@ -1,1 +1,51 @@
-<p>{{selectedCompetition.name}}</p>
+<div class="flex-column float-left">
+
+  <table class="table table-sm">
+    <thead>
+    <tr>
+      <th scope="col">Competition</th>
+      <th scope="col">{{selectedCompetition.name}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Country</td>
+      <td>Poland</td>
+      <!--    TODO pass competition country-->
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>{{selectedCompetition.location}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <table class="table table-sm">
+    <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">senior category</th>
+      <th scope="col">junior category</th>
+      <th scope="col">mixed</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="font-weight-bold">Final ranking (percent)</td>
+      <td class="btn-link">senior category</td>
+      <td class="btn-link">junior category</td>
+      <td class="btn-link">mixed</td>
+    </tr>
+    <tr>
+      <td class="font-weight-bold">Style ranking</td>
+      <td class="btn-link">senior category</td>
+      <td class="btn-link">junior category</td>
+      <td class="btn-link">mixed</td>
+    </tr>
+    <tr>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+
