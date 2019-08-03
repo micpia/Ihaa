@@ -31,3 +31,9 @@ GET {{host-url}}//countries/all
 GET {{host-url}}//ridersView/all
 
 ###
+#################################################################################################
+# API COMPETITIONS VIEW MANAGEMENT
+
+GET {{host-url}}//competitionsView/all
+
+###
