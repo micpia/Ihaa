@@ -37,3 +37,13 @@ GET {{host-url}}//ridersView/all
 GET {{host-url}}//competitionsView/all
 
 ###
+#################################################################################################
+# API COMPETITION STYLES VIEW MANAGEMENT
+
+GET {{host-url}}//competitionStyles/all
+
+###
+
+GET {{host-url}}//competitionStyles/2
+
+###

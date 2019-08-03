@@ -18,6 +18,7 @@
         <class>pl.piasek.ihaa.model.TargetPoints</class>
         <class>pl.piasek.ihaa.model.RidersView</class>
         <class>pl.piasek.ihaa.model.CompetitionsView</class>
+        <class>pl.piasek.ihaa.model.CompetitionStyles</class>
         <properties>
             <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/ihaadb"/>
             <property name="toplink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
